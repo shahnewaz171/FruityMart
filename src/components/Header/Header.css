@@ -1,0 +1,38 @@
+.top-header{
+    background: #4CAF50;
+}
+.remove-pad{
+    padding: 0px !important;
+}
+.top-header .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+}
+.top-header .content ul li{
+    position: relative;
+    color: #fff;
+    line-height: 28px;
+    font-size: 15px;
+    padding: 0px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.top-header .content ul li:hover{
+    color: #e6e0e0;
+}
+.top-header .content ul li::before{
+    content: "";
+    height: 15px;
+    width: 1px;
+    background-color: #d1cece;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top-header .content ul li:last-child::before{
+    width: 0px;
+}
