@@ -1,6 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { MdWifiCalling, MdOutlineLocationOn } from "react-icons/md";
+import { CgMail } from "react-icons/cg";
+import { FiTruck } from "react-icons/fi";
+import { AiOutlineUser } from "react-icons/ai";
 
 const TopHeader = () => {
 
@@ -12,15 +16,30 @@ const TopHeader = () => {
                         <div className="content">
                             <div className="left-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
-                                    <li>+8801782861044</li>
-                                    <li>support@fruityMart.com</li>
+                                    <li>
+                                        <MdWifiCalling />
+                                        <span className="ms-1">(+880)1782861044</span>
+                                    </li>
+                                    <li>
+                                        <CgMail />
+                                        <span className="ms-1">support@fruityMart.com</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="right-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
-                                    <li>Store Location</li>
-                                    <li>Track Your Order</li>
-                                    <li>Register or Sign in</li>
+                                    <li>
+                                        <MdOutlineLocationOn />
+                                        <span className="ms-1">Store Location</span>
+                                    </li>
+                                    <li>
+                                        <FiTruck />
+                                        <span className="ms-1">Track Your Order</span>
+                                    </li>
+                                    <li>
+                                        <AiOutlineUser />
+                                        <span className="ms-1">Register or Sign in</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

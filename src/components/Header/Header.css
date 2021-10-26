@@ -19,6 +19,8 @@
     padding: 0px 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
 }
 .top-header .content ul li:hover{
     color: #e6e0e0;
@@ -35,4 +37,7 @@
 }
 .top-header .content ul li:last-child::before{
     width: 0px;
+}
+.top-header .content ul li svg{
+    font-size: 1.15rem;
 }
