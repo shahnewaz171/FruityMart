@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { MdWifiCalling, MdOutlineLocationOn } from "react-icons/md";
 import { CgMail } from "react-icons/cg";
 import { FiTruck } from "react-icons/fi";
@@ -16,7 +15,7 @@ const TopHeader = () => {
                         <div className="content">
                             <div className="left-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
-                                    <li>
+                                    <li className="ps-0">
                                         <MdWifiCalling />
                                         <span className="ms-1">(+880)1782861044</span>
                                     </li>
@@ -36,7 +35,7 @@ const TopHeader = () => {
                                         <FiTruck />
                                         <span className="ms-1">Track Your Order</span>
                                     </li>
-                                    <li>
+                                    <li className="pe-0">
                                         <AiOutlineUser />
                                         <span className="ms-1">Register or Sign in</span>
                                     </li>
