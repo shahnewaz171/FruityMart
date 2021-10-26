@@ -60,7 +60,7 @@
 
 /* Main Header */
 .main-header{
-    margin-top: 1.5rem;
+    margin-top: .8rem;
 }
 .main-header .header-logo{
     display: flex;
@@ -150,9 +150,6 @@
     border-top: 2px solid #4CAF50;
     display: none;
 }
-.helpful-links .helpful-links-inner .my-dropdown:hover #product-items{
-    display: block !important;
-}
 .main-header .cart-items{
     max-height: 400px;
     overflow-y: auto;
@@ -236,7 +233,9 @@
 
 /* Media Query styles */
 @media screen and (min-width: 992px) {
-    
+    .helpful-links .helpful-links-inner .my-dropdown:hover #product-items{
+        display: block !important;
+    }
 }
 @media only screen and (max-width: 767px) {
     .top-header{

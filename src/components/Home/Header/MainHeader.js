@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, Image, Form, FormControl, Button, Badge, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Container, Row, Col, Image, Form, FormControl, Button, Badge } from 'react-bootstrap';
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { BsCart4 } from "react-icons/bs";
 import { FaExchangeAlt } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/logo/logo1.png';
-import Product1 from '../../images/products/1.png';
+import Logo from '../../../images/logo/logo1.png';
+import Product1 from '../../../images/products/1.png';
 
 const MainHeader = () => {
 
@@ -15,7 +15,7 @@ const MainHeader = () => {
         <>
             <section className="main-header">
                 <Container className="custom-container">
-                    <Row className="m-0">
+                    <Row className="m-0 align-items-center">
                         <Col lg={3} sm={6} className="remove-pad col-5">
                             <div className="header-logo">
                                 <Image src={Logo} fluid />

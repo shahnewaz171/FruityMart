@@ -2,6 +2,7 @@ import React from 'react';
 import TopHeader from './TopHeader';
 import './Header.css';
 import MainHeader from './MainHeader';
+import MainMenu from '../MainMenu/MainMenu';
 
 const Header = () => {
 
@@ -9,6 +10,7 @@ const Header = () => {
         <>
             <TopHeader />
             <MainHeader />
+            <MainMenu />
         </>
     );
 };
