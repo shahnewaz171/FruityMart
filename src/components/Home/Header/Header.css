@@ -79,9 +79,6 @@
 .main-header .search-box svg{
     font-size: 1.3rem;
 }
-.main-header .search-box input{
-    padding: 10px 18px;
-}
 .main-header .search-box .search-btn:hover{
     background-color: #3c863d !important;
 }
@@ -238,14 +235,20 @@
         display: block !important;
     }
 }
+@media screen and (min-width: 768px) {
+    .main-header .search-box input{
+        padding: 10px 18px;
+    }
+}
 @media only screen and (max-width: 767px) {
-    .top-header{
-        display: none;
+    .top-header .hide{
+        display: none !important;
     }
     .my-dropdown-menu{
         display: none;
     }
 }
+
 @media screen and (max-width: 575px) {
     .main-header{
         margin: .5rem 0;

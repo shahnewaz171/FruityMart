@@ -15,7 +15,7 @@ const TopHeader = () => {
                         <div className="content">
                             <div className="left-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
-                                    <li className="ps-0">
+                                    <li className="ps-0 hide">
                                         <MdWifiCalling />
                                         <span className="ms-1">(+880)1782861044</span>
                                     </li>
@@ -27,15 +27,15 @@ const TopHeader = () => {
                             </div>
                             <div className="right-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
-                                    <li>
+                                    <li className="hide">
                                         <MdOutlineLocationOn />
                                         <span className="ms-1">Store Location</span>
                                     </li>
-                                    <li>
+                                    <li className="hide">
                                         <FiTruck />
                                         <span className="ms-1">Track Your Order</span>
                                     </li>
-                                    <li className="pe-0">
+                                    <li className="pe-md-0">
                                         <AiOutlineUser />
                                         <span className="ms-1">Register or Sign in</span>
                                     </li>
