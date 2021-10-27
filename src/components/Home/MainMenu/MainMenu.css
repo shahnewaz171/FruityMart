@@ -11,14 +11,15 @@
     cursor: pointer;
 }
 .mainMenu-area .categories-title h2{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     padding: 10px 15px;
     cursor: pointer;
     display: block;
+    font-weight: 600;
 }
 .mainMenu-area .categories-title .icon-1{
-    margin-top: -4px;
+    margin-top: -2px;
 }
 .mainMenu-area .categories-title .icon-2{
     margin-top: 2px;
@@ -31,13 +32,73 @@
     position: relative;
 }
 .main-nav ul li a{
-    color:#6c6c6c;
+    color:#333;
     line-height: 36px;
     cursor: pointer;
-    font-weight: 500;
     padding: 0px 20px;
+    font-size: 15px;
+}
+.main-nav ul li:last-child a{
+    font-weight: 600;
 }
 
+
+/* Categories  */
+.categories-menu{
+    position: relative;
+}
+.categories-menu-inner{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    z-index: 9;
+    margin-top: -8px;
+    padding-top: 0px;
+}
+.categories-menu-inner ul{
+    border: 1px solid rgba(0, 0, 0, 0.08)!important
+}
+.categories-menu-inner > ul > li{
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    line-height: 40px;
+}
+.categories-menu-inner .link-area{
+    cursor: pointer;
+    width: 100%;
+}
+.categories-menu-inner .category-mega-menu{
+    display: none;
+}
+.categories-menu-inner .category-item:hover #fruits{
+    display: block !important;
+}
+.categories-menu-inner .category-icon{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #8d8c8c;
+}
+.categories-menu-inner ul li ul.category-mega-menu{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 15%);
+    left: 99.5%;
+    padding: 10px 15px 0px;
+}
+.categories-menu-inner > ul > li > ul.category-mega-menu > li > a{
+    color: #444;
+    line-height: 30px;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 6px;
+}
+
+/* Responsiveness */
 @media only screen and (min-width: 992px) {
     .wrap-nav-list{
         position: relative;
@@ -90,6 +151,12 @@
         margin-top: -1px;
         opacity: 1;
         display: none;
+    }
+    .categories-menu-inner{
+        display: none;
+    }
+    .categories-menu:hover #category-active{
+        display: block !important;
     }
 }
 @media only screen and (max-width: 767px){

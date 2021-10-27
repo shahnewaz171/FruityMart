@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FaBars } from "react-icons/fa";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
+import { GiFruitTree } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import './MainMenu.css';
 
@@ -12,13 +13,47 @@ const MainMenu = () => {
         <div className="mainMenu-area mainMenu-border">
             <Container className="custom-container">
                 <Row className="m-0 align-items-center mainMenu-area-inner">
-                    <Col lg={3} md={6} className="categoryMenu-wrapper remove-pad">
-                        <div className="text-white categories-title">
+                    <Col lg={3} md={6} className="categoryMenu-wrapper categories-menu remove-pad">
+                        <div className="text-white categories-title active">
                             <h2>
                                 <FaBars className="icon-1" />
                                 <span className="ms-3">Categories</span>
                                 <IoIosArrowDown className="float-end icon-2" />
                             </h2>
+                        </div>
+
+                        <div id="category-active" className="categories-menu-inner">
+                            <ul className="list-inline">
+                                <li className="d-flex align-items-center category-item">
+                                    <GiFruitTree className="category-icon" />
+                                    <div className="d-flex justify-content-between align-items-center link-area">
+                                       <span>Fruits</span>
+                                        <span><IoIosArrowForward /></span>
+                                    </div>
+                                    <ul id="fruits" className="list-inline category-mega-menu">
+                                        <li>
+                                            <Link to="/a">Sessional Fruits</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/a">Fresh Fruits</Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="d-flex align-items-center category-item">
+                                    <GiFruitTree className="category-icon" />
+                                    <div className="d-flex justify-content-between align-items-center link-area">
+                                       <span>Vegetables</span>
+                                        <span><IoIosArrowForward /></span>
+                                    </div>
+                                </li>
+                                <li className="d-flex align-items-center category-item">
+                                    <GiFruitTree className="category-icon" />
+                                    <div className="d-flex justify-content-between align-items-center link-area">
+                                       <span>Frozen Food</span>
+                                        <span><IoIosArrowForward /></span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </Col>
                     <Col lg={9} md={6} className="mainMenu-wrapper remove-pad">

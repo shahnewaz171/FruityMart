@@ -1,11 +1,20 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import './MainBanner.css';
 
 const MainBanner = () => {
 
     return (
-        <div style={{height: "100vh"}}>
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit temporibus dicta, debitis nostrum tenetur sunt, aut voluptatem consectetur in suscipit quaerat beatae ipsa itaque culpa! Ut dignissimos voluptatum beatae optio.</h1>
-        </div>
+        <section>
+            <Container className="custom-container">
+                <Row className="custom-row">
+                    <Col lg={3} />
+                    <Col lg={9} md={12}>
+                        <h3>adsdasdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</h3>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
     );
 };
 
