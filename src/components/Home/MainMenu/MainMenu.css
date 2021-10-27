@@ -1,0 +1,116 @@
+.mainMenu-area{
+    background: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    height: 40px;
+}
+.mainMenu-border{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+.mainMenu-area .categories-title{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+.mainMenu-area .categories-title h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+}
+.mainMenu-area .categories-title .icon-1{
+    margin-top: -4px;
+}
+.mainMenu-area .categories-title .icon-2{
+    margin-top: 2px;
+}
+.main-nav .full-container{
+    height: auto;
+}
+.main-nav{
+    height: 40px;
+    position: relative;
+}
+.main-nav ul li a{
+    color:#6c6c6c;
+    line-height: 36px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .wrap-nav-list{
+        position: relative;
+        text-align: right;
+        margin-top: -7px;
+        z-index: 1;
+    }
+    .nav-list{
+        height: 40px;
+        display: inline-block;
+    }
+    .nav-list li{
+        height: 40px;
+        display: block;
+        float: left;
+        position: relative;
+        top: -1px!important;
+    }
+    .main-nav .nav-header{
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .main-nav-toggle{
+        font-size: 18px;
+        position: absolute;
+        top: 2px;
+        right: 15px;
+    }
+    .main-nav .nav-header{
+        position: relative;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-list li{
+        border-bottom: solid 1px#efefef;
+    }
+    .main-nav .wrap-nav-list{
+        width: 100%;
+        height: 164px;
+        overflow-y: auto;
+        top: 100%;
+        left: 0;
+        position: absolute;
+        border-bottom: solid 1px#dfdfdf;
+        border-top: solid 1px#dfdfdf;
+        background: #fff;
+        box-shadow: 0px 5px 20px rgb(0 0 0 / 10%);
+        z-index: 99;
+        margin-top: -1px;
+        opacity: 1;
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .mainMenu-area-inner{
+        position: relative;
+    }
+    .categoryMenu-wrapper {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 9;
+        width: 50%;
+    }
+    .mainMenu-wrapper{
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-nav .wrap-nav-list{
+        margin-top: -5px;
+    }
+}

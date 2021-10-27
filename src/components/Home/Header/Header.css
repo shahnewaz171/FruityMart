@@ -60,7 +60,7 @@
 
 /* Main Header */
 .main-header{
-    margin-top: .8rem;
+    margin: .8rem 0;
 }
 .main-header .header-logo{
     display: flex;
@@ -115,6 +115,7 @@
     top: -6px;
     right: -10px;
 }
+
 .main-header .header-icons .item-count:hover .count-badge{
     animation: badgeAnimate 0.7s alternate ease infinite;
 }
@@ -247,7 +248,7 @@
 }
 @media screen and (max-width: 575px) {
     .main-header{
-        margin-top: .5rem;
+        margin: .5rem 0;
     }
     .main-header .header-icons ul li{
         margin-right: 22px;

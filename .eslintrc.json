@@ -45,6 +45,7 @@
         "eqeqeq": 0,
         "prefer-template": 0,
         "no-undef": 0,
-        "react/react-in-jsx-scope": 0
+        "react/react-in-jsx-scope": 0,
+        "no-alert": 0
   }
 }
