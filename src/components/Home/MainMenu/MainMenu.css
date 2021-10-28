@@ -54,8 +54,9 @@
     z-index: 9;
     margin-top: -8px;
     padding-top: 0px;
+    background-color: #fff;
 }
-.categories-menu-inner ul{
+.categories-menu-inner > ul{
     border: 1px solid rgba(0, 0, 0, 0.08)!important
 }
 .categories-menu-inner > ul > li{
@@ -64,15 +65,19 @@
     font-weight: 600;
     color: #333;
     line-height: 40px;
+    transition: all 0.3s linear;
+}
+.categories-menu-inner > ul > li:hover{
+    padding-left: 20px;
 }
 .categories-menu-inner .link-area{
     cursor: pointer;
     width: 100%;
 }
-.categories-menu-inner .category-mega-menu{
-    display: none;
-}
-.categories-menu-inner .category-item:hover #fruits{
+.categories-menu-inner .category-item:hover #fruits,
+.categories-menu-inner .category-item:hover #mango,
+.categories-menu-inner .category-item:hover #papaya,
+.categories-menu-inner .category-item:hover #guava{
     display: block !important;
 }
 .categories-menu-inner .category-icon{
@@ -80,15 +85,24 @@
     margin-right: 10px;
     color: #8d8c8c;
 }
-.categories-menu-inner ul li ul.category-mega-menu{
+.categories-menu-inner > ul > li > ul.category-mega-menu{
     position: absolute;
     top: 0;
     width: 200px;
     z-index: 9;
     background-color: #fff;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 15%);
-    left: 99.5%;
+    left: 110%;
+    opacity: 0;
+    visibility: hidden;
     padding: 10px 15px 0px;
+    border-top: 1px solid #4CAF50;
+    transition: 0.3s;
+}
+.categories-menu-inner ul li:hover ul.category-mega-menu.cActive{
+    opacity: 1;
+    visibility: visible;
+    left: 99.5%;
 }
 .categories-menu-inner > ul > li > ul.category-mega-menu > li > a{
     color: #444;
@@ -96,6 +110,10 @@
     display: block;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 6px;
+    transition: all 0.3s ease-in-out;
+}
+.categories-menu-inner > ul > li > ul.category-mega-menu > li > a:hover{
+    color: #4CAF50;
 }
 
 /* Responsiveness */
