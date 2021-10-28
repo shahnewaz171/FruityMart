@@ -1,12 +1,15 @@
 ::-webkit-input-placeholder { /* Edge */
     color: rgb(167, 167, 167) !important;
+    font-size: 14px;
 }
 :-ms-input-placeholder { /* Internet Explorer */
     color: rgb(167, 167, 167) !important;
+    font-size: 14px;
 } 
 ::placeholder {
     color: rgb(167, 167, 167) !important;
     font-weight: 400 !important;
+    font-size: 14px;
 }
 .top-header,
 .main-header .header-icons .count-badge,
@@ -146,7 +149,11 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top: 2px solid #4CAF50;
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    margin-top: 12px;
 }
 .main-header .cart-items{
     max-height: 400px;
@@ -232,7 +239,12 @@
 /* Media Query styles */
 @media screen and (min-width: 992px) {
     .helpful-links .helpful-links-inner .my-dropdown:hover #product-items{
-        display: block !important;
+        opacity: 1;
+        visibility: visible;
+        margin-top: 4px;
+    }
+    .main-header .header-icons .item-count{
+        margin-right: 10px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -261,10 +273,10 @@
         font-size: 20px;
     }
     .main-header .header-logo img{
-        height: 35px;
-        width: 35px;  
+        height: 30px;
+        width: 30px;  
     }
     .main-header .logo-text{
-        font-size:28px
+        font-size: 22px
     }    
 }

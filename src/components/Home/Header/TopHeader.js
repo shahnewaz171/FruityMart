@@ -10,7 +10,7 @@ const TopHeader = () => {
     return (
         <section className="top-header">
             <Container className="custom-container">
-                <Row>
+                <Row className="m-lg-0">
                     <Col lg={12} className="remove-pad">
                         <div className="content">
                             <div className="left-content">

@@ -112,7 +112,7 @@ const MainMenu = () => {
                                 <li className="d-flex align-items-center position-relative category-item">
                                     <GiPear className="category-icon" />
                                     <div className="link-area">
-                                       <span>Nashpati</span>
+                                       <span>Pear</span>
                                     </div>
                                 </li>
                                 <li className="d-flex align-items-center position-relative category-item">
