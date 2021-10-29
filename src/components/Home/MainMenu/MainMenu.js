@@ -116,6 +116,12 @@ const MainMenu = () => {
                                     </div>
                                 </li>
                                 <li className="d-flex align-items-center position-relative category-item">
+                                    <GiPear className="category-icon" />
+                                    <div className="link-area">
+                                       <span>Buddha's Hand</span>
+                                    </div>
+                                </li>
+                                <li className="d-flex align-items-center position-relative category-item">
                                     <GiFruitBowl className="category-icon" />
                                     <div className="link-area">
                                        <span>Other Fruits</span>

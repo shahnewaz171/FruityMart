@@ -12,7 +12,7 @@
       "ecmaVersion": 12,
       "sourceType": "module"
   },
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "jsx-a11y"],
   "rules": {
       "no-unneeded-ternary": 0,
       "react/jsx-filename-extension": "off",
@@ -46,6 +46,13 @@
         "prefer-template": 0,
         "no-undef": 0,
         "react/react-in-jsx-scope": 0,
-        "no-alert": 0
+        "no-alert": 0,
+        "import/no-extraneous-dependencies": 0,
+        "react/jsx-boolean-value": ["off", "never", { "always": [] }],
+        "react/jsx-props-no-spreading": 0,
+        "react/button-has-type": 0,
+        "no-return-assign": 0,
+        "global-require": 0,
+        "react/no-unescaped-entities": 0
   }
 }
