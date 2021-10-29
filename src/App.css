@@ -12,6 +12,14 @@ a{
 .custom-row{
     --bs-gutter-x: 0px !important;
 }
+.green-btn,
+.green-outline-btn,
+.hShop-btn{
+    border-radius: 25px !important;
+}
+button:focus{
+    box-shadow: none !important;
+}
 @media only screen and (min-width: 1200px) {
     .custom-container {
         max-width: 1200px !important;

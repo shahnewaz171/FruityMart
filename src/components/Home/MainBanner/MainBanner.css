@@ -3,7 +3,7 @@
     height: 423px;
 }
 .header-banner .slick-dots{
-    bottom: 15px;
+    bottom: 25px;
 }
 .header-banner .header-banner-slider{
     position: relative;
@@ -16,11 +16,10 @@
     position: absolute;
     z-index: 2;
     left: 0;
-    transition: width 6000ms;
 }
 .header-banner .header-banner-slider .slick-current .a1{
-    animation-name: slideMove;
-    animation-duration:  6000ms;
+    position: relative;
+    animation: slideMove 6s;
 }
 @keyframes  slideMove {
     from {width: 0px;}
@@ -50,6 +49,54 @@
 .header-banner .slick-dots .slick-active{
     width: 50px;
 }
+.header-banner .header-banner-description{
+    position: absolute;
+    top: 98px;
+}
+.header-banner .banner-margin{
+    margin: 0px 30px;
+}
+.header-banner .banner3-margin{
+    margin-left: 26.5rem;
+    text-align: end;
+}
+.header-banner .header-banner-description{
+    color: #000;
+}
+.header-banner .header-banner-description h4{
+    font-size: 24px;
+}
+.header-banner .header-banner-description h2{
+    font-size: 60px;
+}
+.header-banner .header-banner-description p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-banner .hShop-btn,
+.header-banner .hShop-btn svg{
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-banner .header-banner-description .hShop-btn{
+    padding: 8px 25px;
+    background-color:#4CAF50;
+    border: 1px solid #4CAF50 !important;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 5px 14px rgb(0 0 0 / 15%);
+    cursor: pointer !important;
+}
+.header-banner .header-banner-description .hShop-btn:hover{
+    background-color:#fff !important;
+    border: 1px solid #4CAF50 !important;
+    color: #4CAF50;
+}
+.header-banner .header-banner-description .hShop-btn:focus{
+    background-color:#fff !important;
+    color: #4CAF50;
+}
+
 
 @media only screen and (max-width: 991px){
     .header-banner .header-banner-slider img{

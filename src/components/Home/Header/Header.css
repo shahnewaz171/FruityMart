@@ -221,16 +221,12 @@
 .main-header .actions button{
     font-size: 15px;
 }
-.green-btn,
-.green-outline-btn{
-    border-radius: 25px;
-}
 .green-btn:hover{
     background-color: #3c863d !important;
 }
 .green-outline-btn{
     background-color:#e6e6e6 !important;
-    border: 0;
+    border: 0  !important;
     color: #4c4b4b !important;
     transition:  all 0.3s ease-in-out;
 }

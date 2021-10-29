@@ -103,7 +103,7 @@
 .categories-menu-inner ul li:hover ul.category-mega-menu.cActive{
     opacity: 1;
     visibility: visible;
-    left: 99.5%;
+    left: 100%;
 }
 .categories-menu-inner > ul > li > ul.category-mega-menu > li > a{
     color: #444;
