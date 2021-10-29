@@ -97,9 +97,82 @@
     color: #4CAF50;
 }
 
+.header-banner .slide:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, black);
+}
 
+
+/* Media Query styles */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .header-banner .banner3-margin{
+        margin-left: 14.5rem !important;
+    }
+}
 @media only screen and (max-width: 991px){
     .header-banner .header-banner-slider img{
         height: auto;
     }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .header-banner-description h2{
+        font-size: 42px !important;
+    }
+    .header-banner .banner3-margin{
+        margin-left: 16.5rem !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .header-banner-description h2{
+        font-size: 32px !important;
+    }
+    .header-banner-description h4{
+        font-size: 15px !important;
+    }
+    .header-banner .header-banner-description{
+        top: 40px;
+    }
+    .header-banner .banner3-margin{
+        margin-left: 10rem;
+        top: 40px;
+    }
+    .header-banner .hShop-btn, .header-banner .hShop-btn svg{
+        font-size: 12px;
+    }
+    .header-banner .header-banner-description p{
+        font-size: 13px;
+    }
+    .categories-menu-inner > ul > li > ul.category-mega-menu{
+        left: 0% !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .header-banner .banner3-margin{
+        margin-left: 7.5rem !important;
+    }
+    .header-banner-description h2{
+        font-size: 24px !important;
+    }
+    .header-banner .header-banner-description p{
+        font-size: 11px;
+    }
+    .header-banner .slick-dots{
+        display: none !important;
+    }
+    .header-banner .header-banner-description .hShop-btn{
+        padding: 6px 14px;
+        font-size:10px;
+    }
+    .header-banner .banner3-margin{
+        margin-left: 3rem !important;
+        top: 34px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    
 }

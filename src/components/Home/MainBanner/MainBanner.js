@@ -12,8 +12,8 @@ import './MainBanner.css';
 const MainBanner = () => {
     const settings = {
         dots: true,
-        infinite: true,
-        autoplay: true,
+        // infinite: true,
+        // autoplay: true,
         autoplaySpeed: 6000,
         slidesToShow: 1,
         slidesToScroll: 1
@@ -29,30 +29,30 @@ const MainBanner = () => {
                             <Slider {...settings}>
                                 <div>
                                     <div className="header-banner-description banner-margin">
-                                        <h4 className="fw-bold mb-3">Fresh Fruits</h4>
-                                        <h2 className="fw-bold mb-3">Up to 40% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3">Fresh Fruits</h4>
+                                        <h2 className="fw-bold mb-sm-3">Up to 40% Off</h2>
                                         <p>Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg1} alt="banner1" />
                                     <div className="slider-progress a1" />
                                 </div>
                                 <div>
                                     <div className="header-banner-description banner-margin">
-                                        <h4 className="fw-bold mb-3">Sessional Fruits</h4>
-                                        <h2 className="fw-bold mb-3">Up to 20% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3">Sessional Fruits</h4>
+                                        <h2 className="fw-bold mb-sm-3">Up to 20% Off</h2>
                                         <p>Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg2} alt="banner2" />
                                     <div className="slider-progress a1" />
                                 </div>
                                 <div>
                                     <div className="header-banner-description banner3-margin">
-                                        <h4 className="fw-bold mb-3">Others Fruits</h4>
-                                        <h2 className="fw-bold mb-3">Up to 30% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3">Others Fruits</h4>
+                                        <h2 className="fw-bold mb-sm-3">Up to 30% Off</h2>
                                         <p>Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg3} alt="banner3" />
                                     <div className="slider-progress a1" />

@@ -14,7 +14,7 @@ const MainMenu = () => {
         <div className="mainMenu-area mainMenu-border">
             <Container className="custom-container">
                 <Row className="m-0 align-items-center mainMenu-area-inner">
-                    <Col lg={3} md={6} className="categoryMenu-wrapper categories-menu remove-pad">
+                    <Col lg={3} md={6} className="col-6 categoryMenu-wrapper categories-menu remove-pad">
                         <div className="text-white categories-title active">
                             <h2>
                                 <FaBars className="icon-1" />
@@ -130,7 +130,7 @@ const MainMenu = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col lg={9} md={6} className="mainMenu-wrapper remove-pad">
+                    <Col lg={9} md={6} className="col-6 mainMenu-wrapper remove-pad">
                         <nav className="main-nav">
                             <div className="full-container">
                                 <div className="nav-header">

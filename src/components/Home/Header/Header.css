@@ -246,12 +246,7 @@
         margin-right: 10px;
     }
 }
-@media screen and (min-width: 768px) {
-    .main-header .search-box input{
-        padding: 10px 18px;
-    }
-}
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .top-header .hide{
         display: none !important;
     }
@@ -259,7 +254,11 @@
         display: none;
     }
 }
-
+@media screen and (min-width: 768px) {
+    .main-header .search-box input{
+        padding: 10px 18px;
+    }
+}
 @media screen and (max-width: 575px) {
     .main-header{
         margin: .5rem 0;
