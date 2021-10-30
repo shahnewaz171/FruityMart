@@ -136,16 +136,16 @@
         position: relative;
         top: -1px!important;
     }
-    /* .main-nav .nav-header{
+    .main-nav .nav-header{
         display: none;
-    } */
+    }
 }
 @media only screen and (max-width: 991px) {
     .main-nav-toggle{
         font-size: 20px;
         position: absolute;
         top: 2px;
-        right: 15px;
+        right: 0;
     }
     .main-nav .nav-header{
         position: relative;

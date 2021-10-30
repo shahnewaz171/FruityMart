@@ -12,8 +12,8 @@ import './MainBanner.css';
 const MainBanner = () => {
     const settings = {
         dots: true,
-        // infinite: true,
-        // autoplay: true,
+        infinite: true,
+        autoplay: true,
         autoplaySpeed: 6000,
         slidesToShow: 1,
         slidesToScroll: 1

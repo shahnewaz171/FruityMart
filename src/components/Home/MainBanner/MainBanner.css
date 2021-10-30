@@ -1,6 +1,7 @@
 .header-banner .header-banner-slider img{
     width: 100%;
     height: 423px;
+    /* object-fit: cover; */
 }
 .header-banner .slick-dots{
     bottom: 25px;
@@ -116,7 +117,8 @@
 }
 @media only screen and (max-width: 991px){
     .header-banner .header-banner-slider img{
-        height: auto;
+        min-height: 220px;
+        object-fit: cover;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -150,6 +152,10 @@
     .categories-menu-inner > ul > li > ul.category-mega-menu{
         left: 0% !important;
     }
+    .header-banner .header-banner-slider img{
+        max-height: 220px;
+        object-fit: cover;
+    }
 }
 @media only screen and (max-width: 500px) {
     .header-banner .banner3-margin{
@@ -172,7 +178,4 @@
         margin-left: 3rem !important;
         top: 34px;
     }
-}
-@media only screen and (max-width: 400px) {
-    
 }

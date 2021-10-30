@@ -11,7 +11,6 @@
     font-weight: 400 !important;
     font-size: 14px;
 }
-.top-header,
 .main-header .header-icons .count-badge,
 .main-header .search-box .search-btn,
 .green-btn{
@@ -20,6 +19,10 @@
 
 
 /* Top Header */
+.top-header{
+    /* background-color: #eee !important; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
 .remove-pad{
     padding: 0px !important;
 }
@@ -32,17 +35,13 @@
 }
 .top-header .content ul li{
     position: relative;
-    color: #fff;
     line-height: 28px;
-    font-size: 15px;
+    font-size: 13px;
     padding: 0px 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
     align-items: center;
-}
-.top-header .content ul li:hover{
-    color: #e6e0e0;
 }
 .top-header .content ul li::before{
     content: "";
@@ -57,8 +56,18 @@
 .top-header .content ul li:last-child::before{
     width: 0px;
 }
+.top-header .content ul li a{
+    color: #333e48;
+}
+.top-header .content ul li a:hover{
+    color: #419744;
+}
+.top-header .content .customer-or{
+    color: rgb(51 62 72 / 60%);
+}
 .top-header .content ul li svg{
     font-size: 1.15rem;
+    color: #4CAF50;
 }
 
 /* Main Header */
@@ -81,6 +90,18 @@
 }
 .main-header .search-box svg{
     font-size: 1.3rem;
+    display: flex;
+    align-items: center
+}
+.main-header .search-box input{
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    color: #000;
+    font-size: 14px;
+}
+.main-header .search-box button{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .main-header .search-box .search-btn:hover{
     background-color: #3c863d !important;
@@ -91,7 +112,7 @@
     box-shadow: none;
 }
 .main-header .search-box input:focus{
-    border: 1px solid #ced4da;
+    border: 2px solid #4CAF50;
     box-shadow: none;
 }
 .main-header .header-icons ul li {
@@ -99,7 +120,7 @@
     margin-top: 16px;
 }
 .main-header .header-icons ul li:last-child{
-    margin-right: 0px;
+    margin-right: 12px;
 }
 .main-header .header-icons ul li svg{
     font-size: 25px;
@@ -256,12 +277,17 @@
 }
 @media screen and (min-width: 768px) {
     .main-header .search-box input{
-        padding: 10px 18px;
+        padding: 8px 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main-header .search-box input{
+        padding: 6px 20px;
     }
 }
 @media screen and (max-width: 575px) {
     .main-header{
-        margin: .5rem 0;
+        margin: .8rem 0;
     }
     .main-header .header-icons ul li{
         margin-right: 22px;

@@ -53,6 +53,8 @@
         "react/button-has-type": 0,
         "no-return-assign": 0,
         "global-require": 0,
-        "react/no-unescaped-entities": 0
+        "react/no-unescaped-entities": 0,
+        "object-shorthand": 0,
+        "func-names": 0
   }
 }
