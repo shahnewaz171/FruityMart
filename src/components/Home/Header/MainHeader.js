@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Logo from '../../../images/logo/logo1.png';
-import Product1 from '../../../images/products/1.png';
+import localImages from '../../shared/localImages';
 
 const MainHeader = () => {
 
@@ -56,7 +56,7 @@ const MainHeader = () => {
                                                 <div className="cart-items">
                                                     <div className="cart-product">
                                                         <figure className="cart-product-image position-relative">
-                                                            <Image src={Product1} fluid />
+                                                            <Image src={localImages.product1} fluid />
                                                             <div className="cart-remove">
                                                                 <FontAwesomeIcon icon={faTimes} />
                                                             </div>

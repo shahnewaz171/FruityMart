@@ -8,7 +8,7 @@ import './CategoriesSlider.css';
 const CategoriesSlider = () => {
 
     return (
-        <section className="mt-4 mb-5 categories-slider">
+        <section className="mt-4 categories-slider">
             <Container className="custom-container">
                 <Row>
                     <Col lg={3} md={6} className="col-6 mb-md-3" >
