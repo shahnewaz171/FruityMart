@@ -26,6 +26,12 @@ button:focus{
 .custom-text-color{
     color: #333;
 }
+.lightgray-border{
+    border: 1px solid #ebebeb;
+}
+.pointer{
+    cursor: pointer;
+}
 @media only screen and (min-width: 1200px) {
     .custom-container {
         max-width: 1200px !important;

@@ -6,7 +6,10 @@ const localImages = {
    pomegranateBanner: require('../../images/banner/banner9.jpg').default,
    pearBanner: require('../../images/banner/banner7.jpg').default,
    appleBanner: require('../../images/banner/banner8.jpg').default,
-   product1: require('../../images/products/a.jpg').default
+   product1: require('../../images/products/a.jpg').default,
+   lemon: require('../../images/products/lemon.jpg').default,
+   pomegranate: require('../../images/products/pomegranate.jpg').default,
+   strawberry: require('../../images/products/strawberry.jpg').default
 }
 
 export default localImages;
