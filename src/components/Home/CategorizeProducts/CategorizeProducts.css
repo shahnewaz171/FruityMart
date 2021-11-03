@@ -81,7 +81,7 @@
 .product-wrapper{
     position: relative;
     margin: 0;
-    padding: 10px;
+    padding: 15px 10px;
     background: #ffffff;
     transition: all .35s ease 0s;
 }
@@ -214,6 +214,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
+    border: 1px solid #ebebeb;
 }
 .ctg-tabs-list .item-info{
     text-align: center;
@@ -243,8 +244,8 @@
     z-index: 5;
 }
 .product-info .product-img-container .action-cart{
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     border: 1px solid #ebebeb;
     border-radius: 50%;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 18%) !important;
@@ -252,7 +253,7 @@
     visibility: hidden;
     color: #222222;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,6 +297,12 @@
 }
 .product-info:hover .product-img-container .toWish{
     animation: fadeInUp .4s ease-in;
+}
+.product-info:hover .product-img img{
+    transform: rotateY(180deg);
+}
+.product-info:hover .product-img-container{
+    margin-bottom: 2.5rem !important;
 }
 
  @keyframes fadeInUp {

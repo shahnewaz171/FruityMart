@@ -32,6 +32,9 @@ button:focus{
 .pointer{
     cursor: pointer;
 }
+.context-cursor{
+    cursor: context-menu;
+}
 @media only screen and (min-width: 1200px) {
     .custom-container {
         max-width: 1200px !important;

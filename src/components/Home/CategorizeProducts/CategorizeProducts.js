@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, Image, Row, ProgressBar, Button } from 'react-bootstrap';
+import { Col, Container, Image, Row, ProgressBar, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import Countdown from 'react-countdown';
 import { FaStar } from "react-icons/fa";
-import { IoEyeOutline } from "react-icons/io5";
 import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
+import { MdCompareArrows } from "react-icons/md";
 import localImages from '../../shared/localImages';
 import './CategorizeProducts.css';
 import renderer from '../../shared/countdownClock';
@@ -73,30 +73,48 @@ const CategorizeProducts = () => {
                             </div>
                             <div className="ctg-tabs-list">
                                 <Row>
-                                    <Col lg={4} className="p-0">
+                                    <Col lg={3} className="p-0">
                                         <div className="product-wrapper">
                                             <div className="product-info">
-                                                <div className="product-img-container mb-4">
-                                                    <div className="product-img lightgray-border">
+                                                <div className="product-img-container mb-3">
+                                                    <div className="product-img">
                                                         <Link to="/a">
                                                             <Image src={localImages.lemon} fluid />
                                                         </Link>
                                                     </div>
                                                     <div className="product-action d-flex justify-content-center align-items-center">
-                                                        <div className="link-view">
-                                                            <Button className="action-cart quickView">
-                                                                <IoEyeOutline />
-                                                            </Button>
+                                                        <div className="add-wish">
+                                                            <OverlayTrigger
+                                                                placement="top"
+                                                                delay={{ show: 100, hide: 100 }}
+                                                                overlay={<Tooltip id="button-tooltip-2">Add to Wishlist</Tooltip>}
+                                                            >
+                                                                <Button className="action-cart toWish">
+                                                                    <AiOutlineHeart />
+                                                                </Button>
+                                                            </OverlayTrigger>
                                                         </div>
                                                         <div className="actions-cart">
-                                                            <Button className="action-cart toCart">
-                                                                <AiOutlineShopping />
-                                                            </Button>
+                                                            <OverlayTrigger
+                                                                placement="top"
+                                                                delay={{ show: 100, hide: 100 }}
+                                                                overlay={<Tooltip id="button-tooltip-2">Quick View</Tooltip>}
+                                                            >
+                                                                <Button className="action-cart toCart">
+                                                                    <AiOutlineShopping />
+                                                                </Button>
+                                                            </OverlayTrigger>
                                                         </div>
-                                                        <div className="add-wish">
-                                                            <Button className="action-cart toWish">
-                                                                <AiOutlineHeart />
-                                                            </Button>
+                                                        <div className="link-view">
+                                                            <OverlayTrigger
+                                                                placement="top"
+                                                                delay={{ show: 100, hide: 100 }}
+                                                                overlay={<Tooltip id="button-tooltip-2">Compare</Tooltip>}
+                                                            >
+                                                                <Button className="action-cart quickView">
+                                                                    <MdCompareArrows />
+                                                                </Button>
+                                                            </OverlayTrigger>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -112,15 +130,15 @@ const CategorizeProducts = () => {
                                                         </span>
                                                         <span className="ms-1 custom-text-color">(1 review)</span>
                                                     </div>
-                                                    <h4 className="price fw-bolder">$55.00</h4>
+                                                    <h4 className="price fw-bolder context-cursor">$55.00</h4>
                                                 </div>
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="p-0">
+                                    <Col lg={3} className="p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img lightgray-border">
+                                                <div className="product-img">
                                                     <Image src={localImages.pomegranate} fluid />
                                                 </div>
                                             </div>
@@ -140,10 +158,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="p-0">
+                                    <Col lg={3} className="p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img lightgray-border">
+                                                <div className="product-img">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -163,10 +181,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="p-0">
+                                    <Col lg={3} className="p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img lightgray-border">
+                                                <div className="product-img">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -186,10 +204,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="p-0">
+                                    <Col lg={3} className="p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img lightgray-border">
+                                                <div className="product-img">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -209,7 +227,6 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-
                                 </Row>
                             </div>
                         </div>
