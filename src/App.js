@@ -5,6 +5,7 @@ import Header from './components/Home/Header/Header';
 import './App.css';
 import CategoriesSlider from './components/Home/CategoriesSlider/CategoriesSlider';
 import CategorizeProducts from './components/Home/CategorizeProducts/CategorizeProducts';
+import Newarrivals from './components/Home/Newarrivals/Newarrivals';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Header />
             <CategoriesSlider />
             <CategorizeProducts />
+            <Newarrivals />
           </Route>
         </Switch>
       </Router>

@@ -28,8 +28,7 @@ const CategorizeProducts = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="tabs-content position-relative">
-                        <div className="products-tabs-content">
+                    <div className="tabs-content">
                             <div className="ctg-special-product">
                                 <div className="product-wrapper">
                                     <div className="product-head">
@@ -73,11 +72,11 @@ const CategorizeProducts = () => {
                             </div>
                             <div className="ctg-tabs-list">
                                 <Row>
-                                    <Col lg={3} className="p-0">
+                                    <Col lg={3} sm={6} className="col-6 p-0">
                                         <div className="product-wrapper">
                                             <div className="product-info">
                                                 <div className="product-img-container mb-3">
-                                                    <div className="product-img">
+                                                    <div className="product-img lightgray-border">
                                                         <Link to="/a">
                                                             <Image src={localImages.lemon} fluid />
                                                         </Link>
@@ -119,6 +118,7 @@ const CategorizeProducts = () => {
                                                     </div>
                                                 </div>
                                                 <div className="item-info">
+                                                    <p className="category-name">Fruits</p>
                                                     <h5 className="item-name fw-bolder pointer">Organic Lemon</h5>
                                                     <div className="starts mb-2">
                                                         <span>
@@ -135,10 +135,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3} className="p-0">
+                                    <Col lg={3} sm={6} className="col-6 p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img">
+                                                <div className="product-img lightgray-border">
                                                     <Image src={localImages.pomegranate} fluid />
                                                 </div>
                                             </div>
@@ -158,10 +158,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3} className="p-0">
+                                    <Col lg={3} sm={6} className="col-6 p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img">
+                                                <div className="product-img lightgray-border">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -181,10 +181,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3} className="p-0">
+                                    <Col lg={3} sm={6} className="col-6 p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img">
+                                                <div className="product-img lightgray-border">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -204,10 +204,10 @@ const CategorizeProducts = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={3} className="p-0">
+                                    <Col lg={3} sm={6} className="col-6 p-0">
                                         <div className="product-wrapper">
                                             <div className="product-head">
-                                                <div className="product-img">
+                                                <div className="product-img lightgray-border">
                                                     <Image src={localImages.strawberry} fluid />
                                                 </div>
                                             </div>
@@ -229,7 +229,6 @@ const CategorizeProducts = () => {
                                     </Col>
                                 </Row>
                             </div>
-                        </div>
                     </div>
                 </div>
             </Container>
