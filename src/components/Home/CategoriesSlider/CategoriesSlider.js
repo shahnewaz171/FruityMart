@@ -11,7 +11,7 @@ const CategoriesSlider = () => {
         <section className="mt-4 categories-slider">
             <Container className="custom-container">
                 <Row>
-                    <Col lg={3} md={6} className="col-6 mb-md-3" >
+                    <Col lg={3} md={6} className="col-6 mb-3" >
                         <div className="hdr-banner">
                             <Image src={localImages.pomegranateBanner} fluid />
                             <div className="hdr-description">
@@ -25,7 +25,7 @@ const CategoriesSlider = () => {
                             <div className="overlay" />
                         </div>
                     </Col>
-                    <Col lg={3} md={6} className="col-6 mb-md-3" >
+                    <Col lg={3} md={6} className="col-6 mb-3" >
                         <div className="hdr-banner">
                             <Image src={localImages.pearBanner} fluid />
                             <div className="hdr-description">
@@ -39,7 +39,7 @@ const CategoriesSlider = () => {
                             <div className="overlay" />
                         </div>
                     </Col>
-                    <Col lg={3} md={6} className="col-6 mb-md-3" >
+                    <Col lg={3} md={6} className="col-6 mb-3" >
                         <div className="hdr-banner">
                             <Image src={localImages.fruitBanner} fluid />
                             <div className="hdr-description">
@@ -53,7 +53,7 @@ const CategoriesSlider = () => {
                             <div className="overlay" />
                         </div>
                     </Col>
-                    <Col lg={3} md={6} className="col-6 mb-md-3" >
+                    <Col lg={3} md={6} className="col-6 mb-3" >
                         <div className="hdr-banner">
                             <Image src={localImages.appleBanner} fluid />
                             <div className="hdr-description">

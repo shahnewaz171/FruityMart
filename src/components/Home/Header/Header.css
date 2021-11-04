@@ -115,12 +115,17 @@
     margin-top: 16px;
 }
 .main-header .header-icons ul li:last-child{
-    margin-right: 12px;
+    margin-right: 0px;
 }
 .main-header .header-icons ul li svg{
     font-size: 25px;
     color: #5d5d5d;
     line-height: unset!important;
+}
+.main-header .header-icons .my-dropdown .total-cart-amount{
+    font-size: 14px;
+    font-weight: 600;
+    color: #5d5d5d;
 }
 .main-header .header-icons .count-badge{
     height: 20px;
@@ -252,34 +257,6 @@
 }
 
 /* Media Query styles */
-@media screen and (min-width: 992px) {
-    .helpful-links .helpful-links-inner .my-dropdown:hover #product-items{
-        opacity: 1;
-        visibility: visible;
-        margin-top: 4px;
-    }
-    .main-header .header-icons .item-count{
-        margin-right: 10px;
-    }
-}
-@media screen and (max-width: 991px) {
-    .top-header .hide{
-        display: none !important;
-    }
-    .my-dropdown-menu{
-        display: none;
-    }
-}
-@media screen and (min-width: 768px) {
-    .main-header .search-box input{
-        padding: 8px 30px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .main-header .search-box input{
-        padding: 6px 20px;
-    }
-}
 @media screen and (max-width: 575px) {
     .main-header{
         margin: .8rem 0;
@@ -298,4 +275,43 @@
     .main-header .logo-text{
         font-size: 22px
     }    
+}
+@media screen and (max-width: 767px) {
+    .main-header .search-box input{
+        padding: 6px 20px;
+    }
+    .main-header .header-icons ul li:last-child {
+        margin-right: 12px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .main-header .search-box input{
+        padding: 8px 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top-header .hide{
+        display: none !important;
+    }
+    .my-dropdown-menu{
+        display: none;
+    }
+    .main-header .header-icons .my-dropdown .total-cart-amount{
+       display: none;
+    }
+}
+@media screen and (min-width: 992px) {
+    .helpful-links .helpful-links-inner .my-dropdown:hover #product-items{
+        opacity: 1;
+        visibility: visible;
+        margin-top: 4px;
+    }
+    .main-header .header-icons .item-count{
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .main-header .header-icons ul li{
+        margin-right: 18px !important;
+    }
 }

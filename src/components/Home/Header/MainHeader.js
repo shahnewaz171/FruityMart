@@ -43,14 +43,32 @@ const MainHeader = () => {
                             <div className="header-icons">
                                 <div className="helpful-links">
                                     <ul className="helpful-links-inner">
+                                        <li className="d-inline-block">
+                                            <div className="position-relative item-count" >
+                                                <FaExchangeAlt />
+                                                <Badge className="count-badge">
+                                                    <span className="counter-num">0</span>
+                                                </Badge>
+                                            </div>
+                                        </li>
+                                        <li className="d-inline-block">
+                                            <div className="position-relative item-count" >
+                                                <FiHeart />
+                                                <Badge className="count-badge">
+                                                    <span className="counter-num">0</span>
+                                                </Badge>
+                                            </div>
+                                        </li>
+
                                         <li className="my-dropdown d-inline-block">
-                                            <Link to="/a">
+                                            <Link to="/a" className="d-flex align-items-center">
                                                 <div className="position-relative item-count" >
                                                     <BsCart4 />
                                                     <Badge className="count-badge">
                                                         <span className="counter-num">0</span>
                                                     </Badge>
                                                 </div>
+                                                <span className="total-cart-amount ms-1">$0.00</span>
                                             </Link>
                                             <div id="product-items" className="my-dropdown-menu" >
                                                 <div className="cart-items">
@@ -78,22 +96,7 @@ const MainHeader = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="d-inline-block">
-                                            <div className="position-relative item-count" >
-                                                <FiHeart />
-                                                <Badge className="count-badge">
-                                                    <span className="counter-num">0</span>
-                                                </Badge>
-                                            </div>
-                                        </li>
-                                        <li className="d-inline-block">
-                                            <div className="position-relative item-count" >
-                                                <FaExchangeAlt />
-                                                <Badge className="count-badge">
-                                                    <span className="counter-num">0</span>
-                                                </Badge>
-                                            </div>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
