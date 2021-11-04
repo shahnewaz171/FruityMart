@@ -25,7 +25,22 @@
 @keyframes  slideMove {
     from {width: 0px;}
     to {width: 100%;}
-  }
+}
+.header-banner .slick-slide.slick-active .header-banner-description .slideInUp{
+    animation-name: slideInUp; 
+}
+.header-banner .slick-slide.slick-active .header-banner-description .slideInDown{
+    animation-name: slideInDown;
+}
+.header-banner .slick-slide.slick-active .header-banner-description .slideInRight{
+    animation-name: slideInRight;
+}
+.header-banner .slick-slide.slick-active .header-banner-description .slideInLeft{
+    animation-name: slideInLeft;
+}
+.header-banner .slick-slide div{
+    outline: none;
+}
 .header-banner  .header-banner-slider .slick-current .slider-progress{
     width: 100%;
 }
