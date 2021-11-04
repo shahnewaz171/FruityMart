@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import { Col, Container, Image, Row, ProgressBar, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Container, Image, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -57,9 +57,9 @@ const Newarrivals = () => {
                     </div>
                 </div>
 
-                <div className="mb-5 pb-5">
+                <div className="mb-4">
                     <Slider {...settings} ref={customSlider} >
-                        <div className="d">
+                        <div>
                             <div className="product-wrapper">
                                 <div className="product-info">
                                     <div className="product-img-container mb-3">

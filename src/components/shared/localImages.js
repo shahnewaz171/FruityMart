@@ -9,7 +9,8 @@ const localImages = {
    product1: require('../../images/products/a.jpg').default,
    lemon: require('../../images/products/lemon.jpg').default,
    pomegranate: require('../../images/products/pomegranate.jpg').default,
-   strawberry: require('../../images/products/strawberry.jpg').default
+   strawberry: require('../../images/products/strawberry.jpg').default,
+   popularProductImg1: require('../../images/products/popular-products/1.jpg').default,
 }
 
 export default localImages;

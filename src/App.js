@@ -6,6 +6,7 @@ import './App.css';
 import CategoriesSlider from './components/Home/CategoriesSlider/CategoriesSlider';
 import CategorizeProducts from './components/Home/CategorizeProducts/CategorizeProducts';
 import Newarrivals from './components/Home/Newarrivals/Newarrivals';
+import PopularProducts from './components/Home/PopularProducts/PopularProducts';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <CategoriesSlider />
             <CategorizeProducts />
             <Newarrivals />
+            <PopularProducts />
           </Route>
         </Switch>
       </Router>

@@ -12,7 +12,7 @@ import renderer from '../../shared/countdownClock';
 const CategorizeProducts = () => {
 
     return (
-        <section className="categorize-products mt-4">
+        <section className="categorize-products mt-5">
             <Container className="custom-container">
                 <div className="wrap-tabs-content">
                     <div className="categorize-products-menu">
