@@ -10,7 +10,7 @@ import './PopularProducts.css';
 const PopularProducts = () => {
 
     return (
-        <section className="pt-2 mb-5 popular-products">
+        <section className="pt-2 mb-4 popular-products">
             <Container className="custom-container">
                 <div className="section-top mb-3">
                     <h2 className="section-title d-inline-block mb-0 position-relative">

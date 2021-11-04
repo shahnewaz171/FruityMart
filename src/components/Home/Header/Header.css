@@ -83,11 +83,6 @@
     object-fit: contain;
     height: 45px;
 }
-.main-header .logo-text{
-    font-size: 30px;
-    color: #006c32;
-    font-weight: 600;
-}
 .main-header .search-box svg{
     font-size: 1.3rem;
     display: flex;

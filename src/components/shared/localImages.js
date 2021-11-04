@@ -11,6 +11,9 @@ const localImages = {
    pomegranate: require('../../images/products/pomegranate.jpg').default,
    strawberry: require('../../images/products/strawberry.jpg').default,
    popularProductImg1: require('../../images/products/popular-products/1.jpg').default,
+   bgApple: require('../../images/other-images/bg-apple.jpg').default,
+   footerLogo: require('../../images/logo/logo1.png').default,
+   paymentImg: require('../../images/other-images/payment_ft.png').default
 }
 
 export default localImages;

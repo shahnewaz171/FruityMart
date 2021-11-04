@@ -40,6 +40,14 @@ button:focus{
 .context-cursor{
     cursor: context-menu;
 }
+
+/* Header */
+.logo-text{
+    font-size: 30px;
+    color: #006c32;
+    font-weight: 600;
+}
+
 /* Product Card  */
 .product-wrapper{
     position: relative;

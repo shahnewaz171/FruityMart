@@ -67,9 +67,10 @@
     opacity: 1;
     z-index: 1;
 }
-/* .tabs-content {
-    position: relative;
-} */
+.tabs-content {
+  /* overflow: hidden; */
+  width: 100%;
+}
 .categorize-products  .product-head{
     position: relative;
     margin-bottom: 9px;

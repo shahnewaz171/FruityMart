@@ -9,8 +9,6 @@
     cursor: pointer;
     overflow: hidden;
     transition: 0.3s ease-in;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
 }
 .categories-slider .hdr-banner .hdr-description{
     position: absolute;

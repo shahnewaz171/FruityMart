@@ -1,0 +1,87 @@
+.footer-section{
+    background-color: #f8f8f8;
+}
+.footer-section .footer-bot{
+    background-color: #eaeaea;
+}
+.footer-section .footer-bot p{
+    font-size: 14px;
+    margin-bottom: 0px !important;
+}
+.footer-section .logo-footer img{
+    height: 35px;
+    max-width: 45px;
+    object-fit: contain;
+}
+.footer-section .footer-inner ul li{
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.footer-section .footer-inner ul li:not(:last-child){
+    margin-right: 15px;
+}
+.footer-section .social-link ul li a{
+    height: 40px;
+    width: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    background-size: 100% 0px;
+    background-repeat: no-repeat;
+    background-position: left 0;
+    transition: all 0.3s ease;
+}
+.footer-section .social-link ul li a:hover{
+    background-image: linear-gradient(to right, #4CAF50 0%, #4CAF50 100%);
+    color: #fff;
+    background-size: 100% 100%;
+}
+.footer-section .ft-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-section .footer-bot p{
+    color: #000;
+}
+.footer-section .newsletter-wrapper h6{
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer-section .block-subscribe input{
+    height: 45px;
+    line-height: 35px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid  #ebebeb;
+}
+.footer-section .block-subscribe button {
+    background-color: #111111;
+    border-color: #111111;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: 0;
+    transition: all 0.3s ease;
+}
+.footer-section .block-subscribe button:hover{
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.footer-section .block-subscribe input:focus,
+.footer-section .block-subscribe button:focus {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-section .logo-text{
+        font-size: 24px !important;
+    }
+}
