@@ -118,26 +118,26 @@
 }
 
 /* Responsiveness */
-@media only screen and (min-width: 992px) {
-    .wrap-nav-list{
+@media only screen and (max-width: 767px){
+    .mainMenu-area-inner{
         position: relative;
-        text-align: right;
-        margin-top: -7px;
-        z-index: 1;
     }
-    .nav-list{
-        height: 40px;
-        display: inline-block;
+    .categoryMenu-wrapper {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 9;
+        width: 50%;
     }
-    .nav-list li{
-        height: 40px;
-        display: block;
-        float: left;
-        position: relative;
-        top: -1px!important;
+    .mainMenu-wrapper{
+        position: absolute;
+        top: 0px;
+        right: 0;
     }
-    .main-nav .nav-header{
-        display: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-nav .wrap-nav-list{
+        margin-top: -5px;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -178,25 +178,31 @@
         display: block !important;
     }
 }
-@media only screen and (max-width: 767px){
-    .mainMenu-area-inner{
+@media only screen and (min-width: 992px) {
+    .wrap-nav-list{
         position: relative;
+        text-align: right;
+        margin-top: -7px;
+        z-index: 1;
     }
-    .categoryMenu-wrapper {
-        position: absolute;
-        top: 0px;
-        left: 0;
-        z-index: 9;
-        width: 50%;
+    .nav-list{
+        height: 40px;
+        display: inline-block;
     }
-    .mainMenu-wrapper{
-        position: absolute;
-        top: 0px;
-        right: 0;
+    .nav-list li{
+        height: 40px;
+        display: block;
+        float: left;
+        position: relative;
+        top: -1px!important;
     }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .main-nav .wrap-nav-list{
-        margin-top: -5px;
+    .main-nav .nav-header{
+        display: none;
+    }
+    .hide-category{
+        display: none;
+    }
+    .categories-menu:hover .hide-category{
+        display: block !important;
     }
 }

@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FaBars } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 import { GiFruitTree, GiFruitBowl, GiCutLemon, GiOrange, GiPear, GiPeach, GiFruiting, GiKiwiFruit } from "react-icons/gi";
 import { SiAdafruit } from "react-icons/si";
-import { Link } from 'react-router-dom';
 import './MainMenu.css';
 
 const MainMenu = () => {
     const [toggle, setToggle] = useState(false);
+    
+    const history = useHistory();
+    const { pathname } = history.location;
+    console.log(pathname);
 
     return (
         <div className="mainMenu-area mainMenu-border">
@@ -23,7 +27,7 @@ const MainMenu = () => {
                             </h2>
                         </div>
 
-                        <div id="category-active" className="categories-menu-inner">
+                        <div id="category-active" className={"categories-menu-inner "+ (pathname !== "/" ? "hide-category" : "" )}>
                             <ul className="list-inline">
                                 <li className="d-flex align-items-center position-relative category-item">
                                     <GiFruitBowl className="category-icon" />
