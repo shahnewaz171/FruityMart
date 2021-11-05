@@ -79,9 +79,9 @@
     align-items: center;
 }
 .main-header .header-logo img{
-    max-width: 45px;
+    max-width: 40px;
     object-fit: contain;
-    height: 45px;
+    height: 40px;
 }
 .main-header .search-box svg{
     font-size: 1.3rem;
@@ -308,6 +308,31 @@
     }
     .main-header .header-icons .item-count{
         margin-right: 10px;
+    }
+    .main-header.fixedTop{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .nav-shadow{
+        background-color: #fff;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 30%);
+        padding: 0.25rem 0;
+    }
+    .nav-shadow  .header-logo img{
+        max-width: 37px ;
+        height: 37px;
+    }
+    .nav-shadow .header-logo .logo-text{
+        font-size: 25px !important;
+    }
+    .nav-shadow .search-box input{
+        padding: 6px 30px !important;
+    }
+    .nav-shadow .header-icons ul li svg{
+        font-size: 22px !important;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px){

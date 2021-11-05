@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Image, Form, FormControl, Button, Badge } from 'react-bootstrap';
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { BsCart4 } from "react-icons/bs";
@@ -10,10 +10,21 @@ import Logo from '../../../images/logo/logo1.png';
 import localImages from '../../shared/localImages';
 
 const MainHeader = () => {
+    const [navbarAnimation, setNavbarAnimation] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbarAnimation(true);
+        }
+        else {
+            setNavbarAnimation(false);
+        }
+    }
+    window.addEventListener('scroll', changeBackground);
 
     return (
         <>
-            <section className="main-header">
+            <section className={"main-header "+ (navbarAnimation === true ? "fixedTop m-lg-0 nav-shadow" : "")}>
                 <Container className="custom-container">
                     <Row className="m-0 align-items-center">
                         <Col lg={3} sm={6} className="remove-pad col-5">
