@@ -286,7 +286,7 @@
 }
 @media screen and (min-width: 768px) {
     .main-header .search-box input{
-        padding: 8px 30px;
+        padding: 7px 30px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -318,8 +318,9 @@
     }
     .nav-shadow{
         background-color: #fff;
-        box-shadow: 0px 3px 10px rgb(0 0 0 / 30%);
-        padding: 0.25rem 0;
+        box-shadow: 00 5px 5px -5px rgb(0 0 0 / 50%);
+        border-bottom: 1px solid #eee;
+        padding: 0.4rem 0;
     }
     .nav-shadow  .header-logo img{
         max-width: 37px ;
@@ -328,8 +329,10 @@
     .nav-shadow .header-logo .logo-text{
         font-size: 25px !important;
     }
-    .nav-shadow .search-box input{
-        padding: 6px 30px !important;
+    .nav-shadow .search-box input,
+    .nav-shadow .search-box input:focus{
+        padding: 5px 30px !important;
+        border: 1px solid #4CAF50 !important;
     }
     .nav-shadow .header-icons ul li svg{
         font-size: 22px !important;

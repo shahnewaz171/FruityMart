@@ -1,22 +1,4 @@
-.green-small-btn{
-    background-color: #4CAF50 ;
-    width: 25px;
-    height: 25px;
-    color: #fff;
-    border-radius: 50%;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: 1px solid #4CAF50;
-    transition: 0.3s ease-in;
-}
-.green-small-btn:hover{
-    background-color: #fff;
-    color: #4CAF50;
-    border: 1px solid #4CAF50;
-}
+
 .newArrivals-section .product-info:hover .product-border-bottom:after{
     content: " ";
     position: absolute;

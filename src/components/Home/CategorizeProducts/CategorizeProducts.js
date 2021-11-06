@@ -72,7 +72,7 @@ const CategorizeProducts = () => {
                         </div>
                         <div className="ctg-tabs-list">
                             <Row>
-                                {[1, 2, 3, 4, 5, 6].map((i, data) => {
+                                {[1, 2, 3, 4, 5, 6, 7, 8].map((i, data) => {
                                     return (
                                         <Col key={i} lg={3} sm={6} className="col-6 p-0">
                                             <div className="product-wrapper">

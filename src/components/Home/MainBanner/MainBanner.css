@@ -3,6 +3,10 @@
     height: 423px;
     /* object-fit: cover; */
 }
+.header-banner-slider .slick-next,
+.header-banner-slider .slick-prev{
+    display: none !important;
+}
 .header-banner .slick-dots{
     bottom: 25px;
 }

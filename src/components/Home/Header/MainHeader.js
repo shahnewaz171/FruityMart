@@ -13,7 +13,7 @@ const MainHeader = () => {
     const [navbarAnimation, setNavbarAnimation] = useState(false);
 
     const changeBackground = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 100) {
             setNavbarAnimation(true);
         }
         else {

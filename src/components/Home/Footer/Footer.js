@@ -32,13 +32,13 @@ const Footer = () => {
                             </div>
                             <ul className="list-inline mb-4">
                                 <li>
-                                    <address>2168 S Archer Ave, Chicago, United Stated</address>
+                                    <address>Dhanmondhi, Dhaka, Bangladesh</address>
                                 </li>
                                 <li>
-                                    Phone: <span>+(01) 312-808-1999</span>
+                                    Phone: <span>+(01) 782861044</span>
                                 </li>
                                 <li>
-                                    Email: <span>support@alothemes.com</span>
+                                    Email: <span>support@fruityMart.com</span>
                                 </li>
                             </ul>
                             <div className="social-link">
