@@ -34,7 +34,8 @@ button:focus{
 .lightgray-border{
     border: 1px solid  #ebebeb;
 }
-.pointer{
+.pointer,
+.star{
     cursor: pointer;
 }
 .context-cursor{
@@ -42,6 +43,13 @@ button:focus{
 }
 .outline-none{
     outline: none;
+}
+.pd-oldPrice{
+    color: #1d426694;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 700;
+    /* opacity: 0.8; */
 }
 
 /* Header */
@@ -205,8 +213,18 @@ button:focus{
     width: 25px;
     height: 25px;
     color: #fff;
-    border-radius: 50%;
     font-size: 14px;
+}
+.green-small-outline-btn{
+    background-color: #fff ;
+    width: 20px;
+    height: 20px;
+    color: #4CAF50;
+    font-size: 13px;
+}
+.green-small-btn,
+.green-small-outline-btn{
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,8 +235,22 @@ button:focus{
 .green-small-btn:hover{
     background-color: #fff;
     color: #4CAF50;
+}
+.green-small-outline-btn:hover{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Login */
+.login-btn{
+    background-color: #4CAF50 ;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
     border: 1px solid #4CAF50;
 }
+
+/* Popular Products */
 
 
 @media only screen and (min-width: 1200px) {

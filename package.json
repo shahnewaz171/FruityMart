@@ -39,6 +39,7 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "react-tooltip": "^4.2.21",
+    "react-zoom-slider": "^0.1.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },

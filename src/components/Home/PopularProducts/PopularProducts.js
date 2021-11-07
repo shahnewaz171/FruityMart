@@ -70,8 +70,9 @@ const PopularProducts = () => {
                                                     <span className="ms-1 custom-text-color">(1 review)</span>
                                                 </div>
                                                 <h5 className="item-name fw-bolder pointer">Organic Lemon</h5>
-                                                <h4 className="price fw-bolder context-cursor">
-                                                    $55.00
+                                                <h4 className="context-cursor">
+                                                    <span className="price fw-bolder">$55.00</span>
+                                                    <span className="pd-oldPrice ms-1">$42.00</span>
                                                 </h4>
                                             </div>
                                         </div>
