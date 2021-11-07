@@ -12,7 +12,6 @@ const MainMenu = () => {
     
     const history = useHistory();
     const { pathname } = history.location;
-    console.log(pathname);
 
     return (
         <div className="mainMenu-area mainMenu-border">

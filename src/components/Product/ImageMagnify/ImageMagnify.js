@@ -5,6 +5,9 @@ import pdSlideImg from './pdSlideImg';
 
 const ImageMagnify = () => {
     const { productImg300, productImg1200 } = pdSlideImg;
+    const imageClick = () => {
+        console.log('Click');
+      }
 
     return (
         <>
@@ -30,9 +33,8 @@ const ImageMagnify = () => {
             <div className="product-img-thumbs d-flex">
                 {productImg300.map((item, i) => {
                     return (
-                        <div className="thumb">
+                        <div key={i} className="thumb">
                             <Image src={item} fluid />
-                            {console.log(i)}
                         </div>
                     )
                 })}

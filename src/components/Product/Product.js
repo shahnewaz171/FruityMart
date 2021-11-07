@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Home/Header/Header';
 import BreadCrumbs from '../shared/BreadCrumbs/BreadCrumbs';
 import ProductDetails from './ProductDetails/ProductDetails';
+import Footer from '../Home/Footer/Footer';
 
 const Product = () => {
 
@@ -10,6 +11,7 @@ const Product = () => {
             <Header />
             <BreadCrumbs />
             <ProductDetails />
+            <Footer />
         </>
     );
 };

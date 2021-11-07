@@ -5,7 +5,6 @@ import { FaStar } from "react-icons/fa";
 import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
 import localImages from '../../shared/localImages';
-import './PopularProducts.css';
 
 const PopularProducts = () => {
 

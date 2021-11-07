@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import localImages from '../../shared/localImages';
 import './Newarrivals.css';
 
-const Newarrivals = () => {
+const Newarrivals = ({data}) => {
     const customSlider = createRef();
 
     const settings = {
@@ -49,7 +49,7 @@ const Newarrivals = () => {
             <Container className="custom-container">
                 <div className="section-top d-flex justify-content-between">
                     <h2 className="section-title d-inline-block mb-0 position-relative">
-                        New Arrivals
+                        {data || "New Arrivals"}
                     </h2>
                     <div className="d-flex align-items-center justify-content-center me-3 mt-1">
                         <span onClick={gotoPrev} className="green-small-btn"><FontAwesomeIcon icon={faAngleLeft} /></span>
