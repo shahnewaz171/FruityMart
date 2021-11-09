@@ -58,7 +58,7 @@ const PopularProducts = () => {
                                             </div>
                                             <div className="right-area">
                                                 <p className="category-name">Fruits</p>
-                                                <div className="starts mb-2">
+                                                <div className="stars mb-2">
                                                     <span>
                                                         <FaStar />
                                                         <FaStar />

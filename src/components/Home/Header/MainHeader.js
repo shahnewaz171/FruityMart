@@ -87,7 +87,7 @@ const MainHeader = () => {
                                                         <figure className="cart-product-image position-relative">
                                                             <Image src={localImages.product1} fluid />
                                                             <div className="cart-remove">
-                                                                <FontAwesomeIcon icon={faTimes} />
+                                                                <FontAwesomeIcon icon={faTimes} className="times" />
                                                             </div>
                                                         </figure>
                                                         <div className="ms-3 cart-product-details">

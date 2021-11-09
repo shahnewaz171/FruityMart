@@ -34,9 +34,6 @@ const ProductDetails = () => {
 
                         <Col lg={3}>
                             <LatestProducts />
-                            <div className="mt-5">
-                                a
-                            </div>
                         </Col>
                     </Row>
                 </Container>

@@ -122,7 +122,7 @@ const CategorizeProducts = () => {
                                                     <div className="item-info">
                                                         <p className="category-name">Fruits</p>
                                                         <h5 className="item-name fw-bolder pointer">Organic Lemon</h5>
-                                                        <div className="starts mb-2">
+                                                        <div className="stars mb-2">
                                                             <span>
                                                                 <FaStar />
                                                                 <FaStar />

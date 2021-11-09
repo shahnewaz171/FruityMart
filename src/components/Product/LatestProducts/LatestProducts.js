@@ -19,7 +19,7 @@ const LatestProducts = () => {
         // autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        rows: 2,
+        rows: 3,
     };
 
     const gotoNext = () => {
@@ -44,7 +44,7 @@ const LatestProducts = () => {
                 <div className="popular-products">
                     <div className="product-wrapper">
                         <Slider {...settings} ref={customSlider} >
-                            {[...Array(3)].map((item, i) => {
+                            {[...Array(8)].map((item, i) => {
                                 return (
                                     <div key={i} className="product-info d-flex mb-3">
                                         <div className="left-area">
@@ -54,7 +54,7 @@ const LatestProducts = () => {
                                         </div>
                                         <div className="right-area">
                                             <h5 className="item-name fw-600 pointer">Organic Lemon</h5>
-                                            <div className="starts mb-2">
+                                            <div className="stars mb-2">
                                                 <span>
                                                     <FaStar />
                                                     <FaStar />
