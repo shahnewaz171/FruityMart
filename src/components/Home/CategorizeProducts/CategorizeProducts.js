@@ -36,7 +36,7 @@ const CategorizeProducts = () => {
                                         <span className="special-offer-text">Spacial <br /> Offer</span>
                                         <Link to="/a">
                                             <div className="image-lazySize">
-                                                <Image src={localImages.product1} fluid />
+                                                <Image src={localImages.lemon} fluid />
                                             </div>
                                         </Link>
                                         <span className="d-flex align-items-center justify-content-center flex-column offer-product-label">
@@ -46,10 +46,10 @@ const CategorizeProducts = () => {
                                     </div>
                                 </div>
                                 <div className="product-content text-center">
-                                    <h5>Black Fashion zapda</h5>
+                                    <h5>Lemon</h5>
                                     <div className="product-price">
-                                        <span className="price-sale">$300.00</span>
-                                        <span className="price-compare">$600.00</span>
+                                        <span className="price-sale">$40.00</span>
+                                        <span className="price-compare">$55.00</span>
                                     </div>
                                     <div className="deal-progress">
                                         <div className="deal-stock d-flex justify-content-between">

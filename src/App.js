@@ -9,6 +9,7 @@ import Newarrivals from './components/Home/Newarrivals/Newarrivals';
 import PopularProducts from './components/Home/PopularProducts/PopularProducts';
 import Footer from './components/Home/Footer/Footer';
 import Product from './components/Product/Product';
+import ProductCategory from './components/ProductCategory/ProductCategory';
 import './App.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/product">
             <Product />
+          </Route>
+          <Route path="/product-category">
+            <ProductCategory />
           </Route>
         </Switch>
       </Router>

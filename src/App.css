@@ -180,7 +180,8 @@ button:focus{
 .product-info:hover .toWish{
     animation: fadeInUp .4s ease-in;
 }
-.product-info:hover .product-img img{
+.product-info:hover .product-img img,
+.product-info.deg180:hover .product-img img{
     transform: rotateY(180deg);
 }
 .product-info:hover .item-info .category-name{

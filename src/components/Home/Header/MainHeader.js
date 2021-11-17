@@ -29,8 +29,10 @@ const MainHeader = () => {
                     <Row className="m-0 align-items-center">
                         <Col lg={3} sm={6} className="remove-pad col-5">
                             <div className="header-logo">
-                                <Image src={Logo} fluid />
-                                <span className="ms-2 logo-text">FruityMart</span>
+                                <Link to="/"><Image src={Logo} fluid /></Link>
+                                    <Link to="/">
+                                        <span className="ms-2 logo-text">FruityMart</span>
+                                    </Link>
                             </div>
                         </Col>
                         <Col lg={6} sm={12} className="remove-pad order-last order-sm-2 order-md-2">
