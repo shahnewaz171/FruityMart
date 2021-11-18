@@ -10,7 +10,9 @@ import PopularProducts from './components/Home/PopularProducts/PopularProducts';
 import Footer from './components/Home/Footer/Footer';
 import Product from './components/Product/Product';
 import ProductCategory from './components/ProductCategory/ProductCategory';
+import Carts from './components/Carts/Carts';
 import './App.css';
+import BreadCrumbs from './components/shared/BreadCrumbs/BreadCrumbs';
 
 function App() {
 
@@ -32,6 +34,12 @@ function App() {
           </Route>
           <Route path="/product-category">
             <ProductCategory />
+          </Route>
+          <Route path="/carts">
+            <Header />
+            <BreadCrumbs />
+            <Carts />
+            <Footer />
           </Route>
         </Switch>
       </Router>

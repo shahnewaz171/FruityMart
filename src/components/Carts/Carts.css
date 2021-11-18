@@ -1,0 +1,97 @@
+.pd-carts .cart-table .table{
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.pd-carts .cart-table table thead{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pd-carts .cart-table table tbody tr{
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pd-carts .cart-table table thead tr th{
+    border-bottom: 0px !important;
+}
+.pd-carts .cart-table table td{
+    padding: 0.75rem;
+}
+.pd-carts .cart-table .cart-pd{
+    width: 190px;
+    text-align: center;
+}
+.pd-carts .cart-table .cart-pd p{
+    font-size: 14px;
+}
+.item{
+    border: 1px solid rgba(0, 0, 0, 0)!important;
+    overflow: hidden;
+    display: block;
+}
+.item:hover{
+    border: 1px solid rgba(0, 0, 0, 0.1)!important;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.05)!important;
+}
+.item p a{
+    color: #1d4266;
+}
+.item p a:hover{
+    color: #0056b3;
+}
+.pd-carts .cart-table table tbody tr td{
+    vertical-align: middle;
+}
+.pd-carts .cart-table .unit-price ul li{
+    display: inline-block;
+}
+.pd-carts .cart-table .unit-price span{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border: 1px solid rgba(144, 144, 144, 0.4);
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.pd-carts .cart-table .unit-price .qtMinus:hover,
+.pd-carts .cart-table .unit-price .qtPlus:hover{
+    background-color: #4CAF50;
+    color: #fff;
+}
+.pd-carts .cart-table table tbody tr td.total-price p{
+    font-size: 16px;
+}
+.pd-carts .cart-table .removeCart{
+   color: #5e5e5e;
+   cursor: pointer;
+}
+.pd-carts .order-box{
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 5%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 35px 22px 35px;
+}
+.order-box .title{
+    font-size: 16px;
+    color: #143250;
+    line-height: 28px;
+}
+.order-box .order-list{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.pd-carts .order-btn{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+    .pd-carts .cart-table{
+        max-width: 767px;
+        overflow-x: auto;
+    }
+    .pd-carts .cart-table table{
+        width: 700px;
+    }
+}

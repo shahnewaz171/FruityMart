@@ -36,11 +36,17 @@ button:focus{
 .fw-700{
     font-weight: 700;
 }
+.fz-14{
+    font-size: 14px;
+}
 .custom-text-color{
     color: #333;
 }
 .lightgray-border{
     border: 1px solid  #ebebeb;
+}
+.dark-gray{
+    color: #333333;
 }
 .pointer,
 .star{
