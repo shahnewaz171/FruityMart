@@ -87,13 +87,13 @@ const MainHeader = () => {
                                                 <div className="cart-items">
                                                     <div className="cart-product">
                                                         <figure className="cart-product-image position-relative">
-                                                            <Image src={localImages.product1} fluid />
+                                                            <Image src={localImages.lemon} fluid />
                                                             <div className="cart-remove">
                                                                 <FontAwesomeIcon icon={faTimes} className="times" />
                                                             </div>
                                                         </figure>
                                                         <div className="ms-3 cart-product-details">
-                                                            <p className="product-title">	Gold Diamond Chain</p>
+                                                            <p className="product-title">Organic Lemon</p>
                                                             <p className="product-quantity">QTY: 1</p>
                                                             <p className="product-price">$399.00</p>
                                                         </div>

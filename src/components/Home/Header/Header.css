@@ -182,7 +182,7 @@
 }
 .main-header .cart-product{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     border-bottom: 1px solid #dddddd;
     text-align: start;
