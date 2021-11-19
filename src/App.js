@@ -9,6 +9,7 @@ import Checkout from './components/Checkouts/Checkout';
 import ProductViewModal from './components/Home/ProductViewModal/ProductViewModal';
 import Login from './components/Login/Login';
 import './App.css';
+import UserDashboard from './components/Dashboard/User/UserDashboard';
 
 function App() {
 
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/user">
+            <UserDashboard />
           </Route>
         </Switch>
       </Router>

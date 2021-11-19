@@ -8,7 +8,7 @@ import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
 import renderer from '../../shared/countdownClock';
 import localImages from '../../shared/localImages';
-import ProductViewModal from '../ProductViewModal/ProductViewModal';
+import ViewModalInfo from '../ProductViewModal/ViewModalInfo';
 
 export const ProductViewContext = createContext();
 
@@ -159,7 +159,7 @@ const CategorizeProducts = () => {
                         setIsOpen
                     }}
                 >
-                    <ProductViewModal />
+                    <ViewModalInfo />
                 </ProductViewContext.Provider>
             }
         </section>
