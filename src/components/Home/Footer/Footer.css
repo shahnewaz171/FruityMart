@@ -18,7 +18,7 @@
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 14px;
-    color: #000;
+    color: #143250;
 }
 .footer-section .footer-inner ul li:not(:last-child){
     margin-right: 15px;
@@ -26,7 +26,7 @@
 .footer-section .social-link ul li a{
     height: 40px;
     width: 40px;
-    color: #000;
+    color: #143250;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +45,10 @@
 .footer-section .ft-title{
     font-size: 18px;
     font-weight: 600;
+    color: #143250;
 }
 .footer-section .footer-bot p{
-    color: #000;
+    color: #143250;
 }
 .footer-section .newsletter-wrapper h6{
     font-size: 14px;
@@ -61,8 +62,8 @@
     border: 1px solid  #ebebeb;
 }
 .footer-section .block-subscribe button {
-    background-color: #111111;
-    border-color: #111111;
+    background-color: #143250;
+    border-color: #143250;
     color: #ffffff;
     font-size: 14px;
     font-weight: 600;
