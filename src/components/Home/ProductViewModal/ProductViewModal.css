@@ -10,7 +10,6 @@
     margin-right: -50%;
     transform: translate(-50%,-50%);
     background-color: #fff;
-    box-shadow: 20px 30px 35px rgba(0, 0, 0, 0.4);
     position: absolute;
     padding: 18px 12px !important;
 }

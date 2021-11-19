@@ -13,17 +13,6 @@ const ProductViewModal = () => {
         setIsOpen(false);
     }
 
-    const customStyles = {
-        content: {
-            top: '50%',
-            left: '50%',
-            right: 'auto',
-            bottom: 'auto',
-            marginRight: '-50%',
-            transform: 'translate(-50%, -50%)',
-        },
-    };
-
     return (
         <>
             <Modal
@@ -32,7 +21,6 @@ const ProductViewModal = () => {
                 className="productViewModal"
                 overlayClassName="productViewOverlay"
                 ariaHideApp={false}
-                style={customStyles}
                 contentLabel="Product Quick View"
             >
                 <div className="pb-1 pt-3 product-details quickView">

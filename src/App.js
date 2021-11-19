@@ -11,10 +11,11 @@ import Footer from './components/Home/Footer/Footer';
 import Product from './components/Product/Product';
 import ProductCategory from './components/ProductCategory/ProductCategory';
 import Carts from './components/Carts/Carts';
-import './App.css';
 import BreadCrumbs from './components/shared/BreadCrumbs/BreadCrumbs';
 import Checkout from './components/Checkouts/Checkout';
 import ProductViewModal from './components/Home/ProductViewModal/ProductViewModal';
+import Login from './components/Login/Login';
+import './App.css';
 
 function App() {
 
@@ -53,6 +54,11 @@ function App() {
             <Header />
             <BreadCrumbs />
             <ProductViewModal />
+            <Footer />
+          </Route>
+          <Route path="/login">
+            <Header />
+            <Login />
             <Footer />
           </Route>
         </Switch>
