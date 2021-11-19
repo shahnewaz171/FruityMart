@@ -1,0 +1,129 @@
+.pd-checkouts .checkout-area ul li a{
+    background-color: #e9ecef;
+    height: 70px;
+    width: 200px;
+    line-height: 70px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 32px;
+    position: relative;
+    font-weight: 600;
+    text-align: start;
+}
+.pd-checkouts .checkout-area ul li a::before{
+    position: absolute;
+    content: "";
+    left: 100%;
+    top: 0px;
+    border-top: 35px solid transparent;
+    border-left: 20px solid #e9ecef;
+    border-bottom: 35px solid transparent;
+}
+.pd-checkouts .checkout-area ul li a::after{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    border-top: 35px solid transparent;
+    border-left: 20px solid #ffffff;
+    border-bottom: 35px solid transparent;
+}
+.pd-checkouts .checkout-area ul li a.active{
+    background-color: #4CAF50;
+    color: #fff;
+}
+.pd-checkouts .checkout-area ul li a.active::before{
+    border-left: 20px solid #4CAF50;
+}
+.nav-link.disabled{
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+}
+.pd-checkouts .checkout-area ul li a span{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #666;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+    box-shadow: 3px 3px 7px 1px rgb(0 0 0 / 25%);
+}
+.pd-checkouts .checkout-area ul li a.active span{
+    background-color: #333;
+}
+.pd-checkouts .checkout-area ul li a svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 45px;
+    opacity: 0.1;
+    right: 30px;
+}
+.pd-checkouts .checkout-area ul li a.active svg{
+    opacity: .7;
+    right: 0px;
+    font-size: 34px;
+}
+
+/* Personal info */
+.tab-content{
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 5%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tab-content .content-box .content{
+    padding: 25px 20px 25px;
+}
+.tab-content .content-box .title{
+    padding-bottom: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: #143250;
+}
+.tab-content .content-box .personal-details .form-control{
+    height: 45px;
+    width: 100%;
+    font-size:14px;
+}
+
+/* Orders */
+.tab-content .content-box .orders{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tab-content .content-box .orders .product-img img{
+    width: 135px;
+    height: auto;
+}
+.tab-content .content-box .orders .product-content .name a{
+    font-size: 17px;
+    line-height: 24px;
+    color: #333;
+}
+.tab-content .content-box .orders .product-content .price h5,
+.tab-content .content-box .orders .product-content .quantity h5,
+.tab-content .content-box .orders .product-content .total-price h5{
+    font-size: 14px;
+    color: #666;
+}
+.tab-content .content-box .orders .product-content .price p,
+.tab-content .content-box .orders .product-content .quantity p,
+.tab-content .content-box .orders .product-content .total-price p{
+    color: #777;
+    position: relative;
+    top: -3px;
+}
+
+/* Shipping Info */
+.tab-content .content-box .info-list .icon{
+    color: #4CAF50;
+    line-height: 30px;
+    font-size: 15px;
+}
+.tab-content .content-box .shipping-info ul li p{
+    font-size: 16px;
+    line-height: 1.625;
+}

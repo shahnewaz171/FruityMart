@@ -70,6 +70,17 @@ button:focus{
     color: #ddd;
     font-size: 12px;
 }
+.pay-btn1{
+    font-size: 14px;
+    background-color: #4CAF50;
+    padding: 9px 35px;
+    border-color:#4CAF50 !important;
+    transition: 0.3s ease;
+}
+.pay-btn1:hover{
+    background-color: #fff;
+    color: #4CAF50;
+}
 
 /* Header */
 .logo-text{
@@ -332,6 +343,26 @@ button:focus{
 .popular-products .product-wrapper{
     margin: 10px 10px !important;
 }
+
+/* Order Info */
+.order-box{
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 5%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 35px 22px 35px;
+}
+.order-box .title{
+    font-size: 16px;
+    color: #143250;
+    line-height: 28px;
+}
+.order-box .order-list{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.order-box .order-btn{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
 @media only screen and (max-width: 767px){
     .popular-products .product-wrapper{
         margin: 6px 10px !important;

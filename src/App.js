@@ -13,6 +13,7 @@ import ProductCategory from './components/ProductCategory/ProductCategory';
 import Carts from './components/Carts/Carts';
 import './App.css';
 import BreadCrumbs from './components/shared/BreadCrumbs/BreadCrumbs';
+import Checkout from './components/Checkouts/Checkout';
 
 function App() {
 
@@ -39,6 +40,12 @@ function App() {
             <Header />
             <BreadCrumbs />
             <Carts />
+            <Footer />
+          </Route>
+          <Route path="/checkouts">
+            <Header />
+            <BreadCrumbs />
+            <Checkout />
             <Footer />
           </Route>
         </Switch>
