@@ -148,16 +148,9 @@ const Footer = () => {
             </div>
             <div className="footer-bot py-3">
                 <Container className="custom-container">
-                    <Row>
-                        <Col lg={6} className="d-flex align-items-center">
-                            <p> &copy; 2021 by <span className="fw-bolder">Muhammad Shahnewaz</span> | All rights reserved</p>
-                        </Col>
-                        <Col lg={6} className="text-end">
-                            <Link to="/a">
-                                <Image src={localImages.paymentImg} fluid />
-                            </Link>
-                        </Col>
-                    </Row>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <p> &copy; 2021 by <span className="fw-bolder">Muhammad Shahnewaz</span> | All rights reserved</p>
+                    </div>
                 </Container>
             </div>
         </footer>

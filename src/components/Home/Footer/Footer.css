@@ -18,7 +18,7 @@
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 14px;
-    color: #143250;
+    color: #000;
 }
 .footer-section .footer-inner ul li:not(:last-child){
     margin-right: 15px;
@@ -45,10 +45,9 @@
 .footer-section .ft-title{
     font-size: 18px;
     font-weight: 600;
-    color: #143250;
 }
 .footer-section .footer-bot p{
-    color: #143250;
+    color: #333;
 }
 .footer-section .newsletter-wrapper h6{
     font-size: 14px;
