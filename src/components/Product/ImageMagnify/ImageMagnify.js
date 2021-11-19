@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 import ReactImageMagnify from 'react-image-magnify';
 import pdSlideImg from './pdSlideImg';
 
-const ImageMagnify = () => {
+const ImageMagnify = ({width, height}) => {
     const { productImg300, productImg1200 } = pdSlideImg;
     const imageClick = () => {
         console.log('Click');
@@ -24,8 +24,8 @@ const ImageMagnify = () => {
                         height: 1000
                     },
                     enlargedImageContainerDimensions: {
-                        width: "200%",
-                        height: "150%"
+                        width: width || "200%",
+                        height: height || "150%"
                     },
                     className: "img-magnify"
                 }} />

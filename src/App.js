@@ -14,6 +14,7 @@ import Carts from './components/Carts/Carts';
 import './App.css';
 import BreadCrumbs from './components/shared/BreadCrumbs/BreadCrumbs';
 import Checkout from './components/Checkouts/Checkout';
+import ProductViewModal from './components/Home/ProductViewModal/ProductViewModal';
 
 function App() {
 
@@ -46,6 +47,12 @@ function App() {
             <Header />
             <BreadCrumbs />
             <Checkout />
+            <Footer />
+          </Route>
+          <Route path="/quickView">
+            <Header />
+            <BreadCrumbs />
+            <ProductViewModal />
             <Footer />
           </Route>
         </Switch>

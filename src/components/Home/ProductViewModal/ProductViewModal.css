@@ -1,0 +1,41 @@
+.productViewModal{
+    width: 63vw;
+    height: auto;
+    overflow-y: auto !important;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    border-radius: 1em;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    box-shadow: 20px 30px 35px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    padding: 18px 12px !important;
+}
+.productViewOverlay{
+    position: fixed;
+    inset: 0;
+    /* backdrop-filter: blur(2px) !important; */
+    z-index: 99999;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.productViewModal .quickView .row{
+    --bs-gutter-x: 0px !important;
+}
+@media screen and (max-width: 991px){
+    .productViewOverlay .productViewModal{
+        width: 85vw;
+        padding: 18px 16px !important;
+    }
+    .productViewOverlay .productViewModal .quickView{
+        height: 90vh;
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 767px){
+    .productViewOverlay .productViewModal{
+        width: 90vw;
+    }
+}

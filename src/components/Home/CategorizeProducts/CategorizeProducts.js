@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useState, createContext } from 'react';
+import './CategorizeProducts.css';
 import { Col, Container, Image, Row, ProgressBar, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import Countdown from 'react-countdown';
 import { FaStar } from "react-icons/fa";
 import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
-import localImages from '../../shared/localImages';
-import './CategorizeProducts.css';
 import renderer from '../../shared/countdownClock';
+import localImages from '../../shared/localImages';
+import ProductViewModal from '../ProductViewModal/ProductViewModal';
+
+export const ProductViewContext = createContext();
 
 const CategorizeProducts = () => {
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    const openModal = () => {
+        setIsOpen(true);
+    }
 
     return (
         <section className="categorize-products mt-5">
@@ -101,7 +109,7 @@ const CategorizeProducts = () => {
                                                                     delay={{ show: 100, hide: 100 }}
                                                                     overlay={<Tooltip id="button-tooltip-2">Quick View</Tooltip>}
                                                                 >
-                                                                    <Button className="action-cart toCart">
+                                                                    <Button onClick={openModal} className="action-cart toCart">
                                                                         <AiOutlineShopping />
                                                                     </Button>
                                                                 </OverlayTrigger>
@@ -144,6 +152,16 @@ const CategorizeProducts = () => {
                     </div>
                 </div>
             </Container>
+            {
+                <ProductViewContext.Provider
+                    value={{
+                        modalIsOpen,
+                        setIsOpen
+                    }}
+                >
+                    <ProductViewModal />
+                </ProductViewContext.Provider>
+            }
         </section>
     );
 };
