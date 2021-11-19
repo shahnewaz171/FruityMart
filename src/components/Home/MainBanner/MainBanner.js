@@ -30,8 +30,8 @@ const MainBanner = () => {
                             <Slider {...settings}>
                                 <div>
                                     <div className="header-banner-description banner-margin">
-                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Fresh Fruits</h4>
-                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Up to 40% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
+                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Fresh Fruits</h2>
                                         <p className="animate__animated slideInRight">Buy the Best Organic Fruits for your Healthy Future.</p>
                                         <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
@@ -40,8 +40,8 @@ const MainBanner = () => {
                                 </div>
                                 <div>
                                     <div className="header-banner-description banner-margin">
-                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Sessional Fruits</h4>
-                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Up to 20% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
+                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Sessional Fruits</h2>
                                         <p className="animate__animated slideInDown">Buy the Best Organic Fruits for your Healthy Future.</p>
                                         <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
@@ -50,8 +50,8 @@ const MainBanner = () => {
                                 </div>
                                 <div>
                                     <div className="header-banner-description banner3-margin">
-                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Others Fruits</h4>
-                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Up to 30% Off</h2>
+                                        <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
+                                        <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Others Fruits</h2>
                                         <p className="animate__animated slideInLeft">Buy the Best Organic Fruits for your Healthy Future.</p>
                                         <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
