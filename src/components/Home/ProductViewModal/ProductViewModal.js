@@ -3,7 +3,10 @@ import { Col, Row } from 'react-bootstrap';
 import Modal from 'react-modal';
 import ImageMagnify from '../../Product/ImageMagnify/ImageMagnify';
 import ProductMainInfo from '../../Product/ProductMainInfo/ProductMainInfo';
+import BreadCrumbs from '../../shared/BreadCrumbs/BreadCrumbs';
 import { ProductViewContext } from '../CategorizeProducts/CategorizeProducts';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './ProductViewModal.css';
 
 const ProductViewModal = () => {
@@ -15,6 +18,8 @@ const ProductViewModal = () => {
 
     return (
         <>
+            <Header />
+            <BreadCrumbs />
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -34,6 +39,7 @@ const ProductViewModal = () => {
                     </Row>
                 </div>
             </Modal>
+            <Footer />
         </>
     );
 };
