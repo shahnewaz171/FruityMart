@@ -14,25 +14,25 @@ const BreadCrumbs = () => {
                     <Col lg={12}>
                         <ul className="pages list-inline d-flex flex-wrap mb-0">
                             <li>
-                                <Link to="/a">
+                                <Link to="/">
                                     Home
                                     <FontAwesomeIcon icon={faAngleDoubleRight} />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/a">
+                                <Link to="/">
                                     Vegetables
                                     <FontAwesomeIcon icon={faAngleDoubleRight} />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/a">
+                                <Link to="/">
                                     Fresh Vegetables
                                     <FontAwesomeIcon icon={faAngleDoubleRight} />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/a">
+                                <Link to="/">
                                     Test Organic Food Product Title Will be here one
                                 </Link>
                             </li>

@@ -17,13 +17,13 @@ const TopHeader = () => {
                             <div className="left-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
                                     <li className="ps-0 hide">
-                                        <Link to="/a">
+                                        <Link to="/">
                                             <MdWifiCalling />
                                             <span className="ms-1">(+880)1782861044</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/a">
+                                        <Link to="/">
                                             <CgMail />
                                             <span className="ms-1">support@fruityMart.com</span>
                                         </Link>
@@ -33,24 +33,24 @@ const TopHeader = () => {
                             <div className="right-content">
                                 <ul className="list-inline d-flex align-items-center m-0">
                                     <li className="hide">
-                                        <Link to="/a">
+                                        <Link to="/">
                                             <MdOutlineLocationOn />
                                             <span className="ms-1">Store Location</span>
                                         </Link>
                                     </li>
                                     <li className="hide">
-                                        <Link to="/a">
+                                        <Link to="/">
                                             <FiTruck />
                                             <span className="ms-1">Track Your Order</span>
                                         </Link>
                                     </li>
                                     <li className="pe-md-0">
                                     <AiOutlineUser />
-                                        <Link to="/a">
+                                        <Link to="/login">
                                             <span className="mx-1">Register </span>
                                         </Link>
                                             <span className="customer-or">or</span>
-                                        <Link to="/a">
+                                        <Link to="/login">
                                             <span className="ms-1">Sign in</span>
                                         </Link>
                                     </li>

@@ -3,11 +3,9 @@ import { Col, Row } from 'react-bootstrap';
 import Modal from 'react-modal';
 import ImageMagnify from '../../Product/ImageMagnify/ImageMagnify';
 import ProductMainInfo from '../../Product/ProductMainInfo/ProductMainInfo';
-import { ProductViewContext } from '../CategorizeProducts/CategorizeProducts';
 import './ProductViewModal.css';
 
-const ViewModalInfo = () => {
-    const { modalIsOpen, setIsOpen } = useContext(ProductViewContext);
+const ViewModalInfo = ({ modalIsOpen, setIsOpen } ) => {
 
     const closeModal = () => {
         setIsOpen(false);

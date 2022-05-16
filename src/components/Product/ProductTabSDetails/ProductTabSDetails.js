@@ -74,7 +74,7 @@ const ProductTabSDetails = () => {
                                             <Col lg={12}>
                                                 <br />
                                                 <h5 className="fw-600 text-center">
-                                                    <Link to="/a" className="login-btn me-2">
+                                                    <Link to="/login" className="login-btn me-2">
                                                         Login
                                                     </Link>
                                                     To Review
@@ -110,7 +110,7 @@ const ProductTabSDetails = () => {
                                             <Col lg={12}>
                                                 <br />
                                                 <h5 className="fw-600 text-center">
-                                                    <Link to="/a" className="login-btn me-2">
+                                                    <Link to="/login" className="login-btn me-2">
                                                         Login
                                                     </Link>
                                                     To Comment

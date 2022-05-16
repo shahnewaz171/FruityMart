@@ -50,37 +50,37 @@ const SubCategory = () => {
                                 <div className="body-area mb-4">
                                     <ul className="list-inline mb-0">
                                         <li>
-                                            <Link to="/a" className="content">
+                                            <Link to="/" className="content">
                                                 <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
                                                 Fruits
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="content">
+                                            <Link to="/" className="content">
                                                 <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
                                                 Vegetables
                                             </Link>
                                             <div className="sub-content ms-3 mt-2">
-                                                <Link to="/a" className="content">
+                                                <Link to="/" className="content">
                                                     <FontAwesomeIcon icon={faAngleRight} />
                                                     Fresh Vegetables
                                                 </Link>
                                             </div>
                                             <div className="sub-content ms-3 mt-2">
-                                                <Link to="/a" className="content">
+                                                <Link to="/" className="content">
                                                     <FontAwesomeIcon icon={faAngleRight} />
                                                     Frozen Vegetables
                                                 </Link>
                                             </div>
                                             <div className="sub-content ms-3 mt-2">
-                                                <Link to="/a" className="content">
+                                                <Link to="/" className="content">
                                                     <FontAwesomeIcon icon={faAngleRight} />
                                                     Sessional Vegetables
                                                 </Link>
                                             </div>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="content">
+                                            <Link to="/" className="content">
                                                 <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
                                                 Frozen Food
                                             </Link>
@@ -117,7 +117,7 @@ const SubCategory = () => {
                                                     <div className="product-info deg180">
                                                         <div className="product-img-container mb-3">
                                                             <div className="product-img product-border-bottom">
-                                                                <Link to="/a">
+                                                                <Link to="/">
                                                                     <Image src={localImages.lemon} fluid />
                                                                 </Link>
                                                             </div>
@@ -181,28 +181,28 @@ const SubCategory = () => {
                                 <div className="mt-5 pt-3 pagination d-block text-center">
                                     <ul className="list-inline mb-0">
                                         <li>
-                                            <Link to="/a" className="prev page-numbers">
+                                            <Link to="/" className="prev page-numbers">
                                                 <BsChevronLeft className="fw-700" />
                                                 Previous Page
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="prev page-numbers">
+                                            <Link to="/" className="prev page-numbers">
                                                 1
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="page-numbers current">
+                                            <Link to="/" className="page-numbers current">
                                                 2
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="page-numbers">
+                                            <Link to="/" className="page-numbers">
                                                 3
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="page-numbers">
+                                            <Link to="/" className="page-numbers">
                                                 4
                                             </Link>
                                         </li>
@@ -210,7 +210,7 @@ const SubCategory = () => {
                                             <span className="page-numbers">...</span>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="next page-numbers">
+                                            <Link to="/" className="next page-numbers">
                                                 Next Page
                                                 <BsChevronRight className="fw-700" />
                                             </Link>

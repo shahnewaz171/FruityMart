@@ -26,7 +26,7 @@ const CheckoutInfo = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item d-inline-block me-4 mb-2 mb-md-0">
-                                        <Link to="/a" className="nav-link disabled">
+                                        <Link to="/user" className="nav-link disabled">
                                             <span>2</span>
                                             Orders
                                             <FaDolly />
@@ -142,13 +142,13 @@ const CheckoutInfo = () => {
                                                 <li>
                                                     <p className="dark-gray">
                                                         <IoCall className="icon me-2" />
-                                                        09455534553
+                                                        +8801980354699
                                                     </p>
                                                 </li>
                                                 <li>
                                                     <p className="dark-gray">
                                                         <MdEmail className="icon me-2" />
-                                                        deb15-1393@diu.edu.bd
+                                                        shahnewaz601@gmail.com
                                                     </p>
                                                 </li>
                                             </ul>
@@ -186,7 +186,7 @@ const CheckoutInfo = () => {
                                 <p>45$</p>
                             </div>
                             <div className="mt-3 text-center">
-                                <Link to="/a" className="px-5 py-2 order-btn">Place Order</Link>
+                                <Link to="/user" className="px-5 py-2 order-btn">Place Order</Link>
                             </div>
                         </div>
                     </Col>

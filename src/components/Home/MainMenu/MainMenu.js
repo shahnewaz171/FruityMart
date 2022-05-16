@@ -36,10 +36,10 @@ const MainMenu = () => {
                                     </div>
                                     <ul id="fruits" className="list-inline category-mega-menu cActive">
                                         <li>
-                                            <Link to="/a">Sessional Fruits</Link>
+                                            <Link to="/">Sessional Fruits</Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">Fresh Fruits</Link>
+                                            <Link to="/">Fresh Fruits</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -51,10 +51,10 @@ const MainMenu = () => {
                                     </div>
                                     <ul id="mango" className="list-inline category-mega-menu  cActive">
                                         <li>
-                                            <Link to="/a">Bangladeshi Mango</Link>
+                                            <Link to="/">Bangladeshi Mango</Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">Other Countries</Link>
+                                            <Link to="/">Other Countries</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -66,10 +66,10 @@ const MainMenu = () => {
                                     </div>
                                     <ul id="papaya" className="list-inline category-mega-menu  cActive">
                                         <li>
-                                            <Link to="/a">Bangladeshi Papaya</Link>
+                                            <Link to="/">Bangladeshi Papaya</Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">Other Countries</Link>
+                                            <Link to="/">Other Countries</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -81,10 +81,10 @@ const MainMenu = () => {
                                     </div>
                                     <ul id="guava" className="list-inline category-mega-menu  cActive">
                                         <li>
-                                            <Link to="/a">Bangladeshi Guava</Link>
+                                            <Link to="/">Bangladeshi Guava</Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">Other Countries</Link>
+                                            <Link to="/">Other Countries</Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -144,27 +144,27 @@ const MainMenu = () => {
                                 <div className={"wrap-nav-list "+ (toggle ? "d-block" : "")}>
                                     <ul className="list-inline nav-list">
                                         <li>
-                                            <Link to="/a">
+                                            <Link to="/">
                                                 Blog
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">
+                                            <Link to="/">
                                                 Fag
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">
+                                            <Link to="/">
                                                 About Us
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a">
+                                            <Link to="/">
                                                 Contact Us
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/a" className="custom-greenColor">
+                                            <Link to="/" className="custom-greenColor">
                                                 Track Order
                                             </Link>
                                         </li>

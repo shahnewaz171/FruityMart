@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Image, Row, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
 import localImages from '../../shared/localImages';
+import ViewModalInfo from '../ProductViewModal/ViewModalInfo';
 
 const PopularProducts = () => {
+    const [modalIsOpen, setIsOpen] = useState(false);
 
     return (
         <section className="pt-2 mb-4 popular-products">
@@ -28,7 +30,7 @@ const PopularProducts = () => {
                                                     <span className="label-new mb-1">New</span>
                                                     <span className="label-sale">-10%</span>
                                                 </div>
-                                                <Link to="/a" className="product-img">
+                                                <Link to="/product/1" className="product-img">
                                                     <Image src={localImages.popularProductImg1} fluid />
                                                 </Link>
                                                 <div className="product-action d-flex justify-content-center align-items-center">
@@ -49,7 +51,7 @@ const PopularProducts = () => {
                                                             delay={{ show: 100, hide: 100 }}
                                                             overlay={<Tooltip id="button-tooltip-2">Quick View</Tooltip>}
                                                         >
-                                                            <Button className="action-cart toCart">
+                                                            <Button onClick={() => setIsOpen(true)} className="action-cart toCart">
                                                                 <AiOutlineShopping />
                                                             </Button>
                                                         </OverlayTrigger>
@@ -81,6 +83,9 @@ const PopularProducts = () => {
                         })}
                     </Row>
                 </div>
+                {
+                    <ViewModalInfo modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
+                }
             </Container>
         </section>
     );

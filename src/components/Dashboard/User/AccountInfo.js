@@ -94,7 +94,7 @@ const AccountInfo = () => {
                                                             <div className="rounded-pill text-white text-center d-inline-block order-status">Pending</div>
                                                         </td>
                                                         <td>
-                                                            <Link to="/a" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
+                                                            <Link to="/carts" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -105,7 +105,7 @@ const AccountInfo = () => {
                                                             <div className="rounded-pill text-white text-center d-inline-block order-status">Pending</div>
                                                         </td>
                                                         <td>
-                                                            <Link to="/a" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
+                                                            <Link to="/carts" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -116,7 +116,7 @@ const AccountInfo = () => {
                                                             <div className="rounded-pill text-white text-center d-inline-block order-status">Pending</div>
                                                         </td>
                                                         <td>
-                                                            <Link to="/a" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
+                                                            <Link to="/carts" variant="outline-success" className="rounded-pill d-inline-block text-center fw-600 text-uppercase viewOrder-Btn">View Order</Link>
                                                         </td>
                                                     </tr>
                                                 </tbody>

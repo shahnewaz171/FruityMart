@@ -64,22 +64,22 @@ const ProductMainInfo = () => {
                 <div className="info-meta-2">
                     <ul className="list-inline">
                         <li>
-                            <Link to="/a" className="addCart-btn">
+                            <Link to="/" className="addCart-btn">
                                 <BsCart4 className="me-1" /> Add to Cart
                             </Link>
                         </li>
                         <li>
-                            <Link to="/a" className="addCart-btn">
+                            <Link to="/carts" className="addCart-btn">
                                 <BsCart4 className="me-1" /> Buy Now
                             </Link>
                         </li>
                         <li className="compare">
-                            <Link to="/a" className="green-small-btn">
+                            <Link to="/" className="green-small-btn">
                                 <BsFillHeartFill />
                             </Link>
                         </li>
                         <li className="favorite">
-                            <Link to="/a" className="green-small-btn">
+                            <Link to="/" className="green-small-btn">
                                 <FaExchangeAlt />
                             </Link>
                         </li>
@@ -88,22 +88,22 @@ const ProductMainInfo = () => {
                 <div className="social-links pt-1">
                     <ul className="list-inline link-list mb-0">
                         <li>
-                            <Link to="/a" className="facebook">
+                            <Link to="/" className="facebook">
                                 <FaFacebookF />
                             </Link>
                         </li>
                         <li>
-                            <Link to="/a" className="twitter">
+                            <Link to="/" className="twitter">
                                 <FaTwitter />
                             </Link>
                         </li>
                         <li>
-                            <Link to="/a" className="linekedin">
+                            <Link to="/" className="linekedin">
                                 <FaLinkedinIn />
                             </Link>
                         </li>
                         <li>
-                            <Link to="/a" className="pinterest">
+                            <Link to="/" className="pinterest">
                                 <FaPinterestP />
                             </Link>
                         </li>

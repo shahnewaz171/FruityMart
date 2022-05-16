@@ -17,7 +17,7 @@ const CategoriesSlider = () => {
                             <div className="hdr-description">
                                 <p className="text-uppercase m-0">100% natural</p>
                                 <h2>Pomegranate</h2>
-                                <Link to="/a">
+                                <Link to="/product-category">
                                     <span className="text-uppercase">Shop now</span>
                                     <span><IoArrowForwardCircle /></span>
                                 </Link>
@@ -31,7 +31,7 @@ const CategoriesSlider = () => {
                             <div className="hdr-description">
                                 <p className="text-uppercase m-0">100% natural</p>
                                 <h2>Pear</h2>
-                                <Link to="/a">
+                                <Link to="/product-category">
                                     <span className="text-uppercase">Shop now</span>
                                     <span><IoArrowForwardCircle /></span>
                                 </Link>
@@ -45,7 +45,7 @@ const CategoriesSlider = () => {
                             <div className="hdr-description">
                                 <p className="text-uppercase m-0">100% natural</p>
                                 <h2>Fruits</h2>
-                                <Link to="/a">
+                                <Link to="/product-category">
                                     <span className="text-uppercase">Shop now</span>
                                     <span><IoArrowForwardCircle /></span>
                                 </Link>
@@ -59,7 +59,7 @@ const CategoriesSlider = () => {
                             <div className="hdr-description">
                                 <p className="text-uppercase m-0">100% natural</p>
                                 <h2>Apple</h2>
-                                <Link to="/a">
+                                <Link to="/product-category">
                                     <span className="text-uppercase">Shop now</span>
                                     <span><IoArrowForwardCircle /></span>
                                 </Link>

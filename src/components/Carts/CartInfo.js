@@ -35,7 +35,7 @@ const CartInfo = () => {
                                                     <div className="item">
                                                         <Image src={localImages.lemon} fluid />
                                                         <p className="fw-600">
-                                                            <Link to="/a">
+                                                            <Link to="/">
                                                                 Organic Lemon
                                                             </Link>
                                                         </p>
@@ -99,7 +99,7 @@ const CartInfo = () => {
                                 <p>45$</p>
                             </div>
                             <div className="mt-3 text-center">
-                                <Link to="/a" className="px-5 py-2 order-btn">Place Order</Link>
+                                <Link to="/user" className="px-5 py-2 order-btn">Place Order</Link>
                             </div>
                         </div>
                     </Col>

@@ -74,7 +74,7 @@ const MainHeader = () => {
                                         </li>
 
                                         <li className="my-dropdown d-inline-block">
-                                            <Link to="/a" className="d-flex align-items-center">
+                                            <Link to="/" className="d-flex align-items-center">
                                                 <div className="position-relative item-count" >
                                                     <BsCart4 />
                                                     <Badge className="count-badge">
@@ -104,8 +104,12 @@ const MainHeader = () => {
                                                     <span className="amount">$1,379.00</span>
                                                 </div>
                                                 <div className="d-flex justify-content-between actions">
-                                                    <Button className="btn green-outline-btn">Go to Cart</Button>
-                                                    <Button className="btn border-0 green-btn">Proceed to Checkout</Button>
+                                                    <Link to="/carts">
+                                                        <Button className="btn green-outline-btn">Go to Cart</Button>
+                                                    </Link>
+                                                    <Link to="/checkouts">
+                                                        <Button className="btn border-0 green-btn">Proceed to Checkout</Button>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </li>

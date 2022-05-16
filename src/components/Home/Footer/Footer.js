@@ -44,22 +44,22 @@ const Footer = () => {
                             <div className="social-link">
                                 <ul className="social-item d-flex list-inline">
                                     <li className="mb-0">
-                                        <Link to="/a" className="item">
+                                        <Link to="https://www.facebook.com/MuhammadShahnewaz601/" className="item">
                                             <FaFacebookF />
                                         </Link>
                                     </li>
                                     <li className="mb-0">
-                                        <Link to="/a" className="item">
+                                        <Link to="/" className="item">
                                             <FaYoutube />
                                         </Link>
                                     </li>
                                     <li className="mb-0">
-                                        <Link to="/a" className="item">
+                                        <Link to="https://github.com/shahnewaz171" className="item">
                                             <FaGithub />
                                         </Link>
                                     </li>
                                     <li className="mb-0">
-                                        <Link to="/a" className="item">
+                                        <Link to="/" className="item">
                                             <FaTwitter />
                                         </Link>
                                     </li>

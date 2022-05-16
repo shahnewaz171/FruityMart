@@ -48,7 +48,7 @@ const LatestProducts = () => {
                                 return (
                                     <div key={i} className="product-info d-flex mb-3">
                                         <div className="left-area">
-                                            <Link to="/a" className="product-img">
+                                            <Link to="/" className="product-img">
                                                 <Image src={localImages.popularProductImg1} fluid />
                                             </Link>
                                         </div>
@@ -69,17 +69,17 @@ const LatestProducts = () => {
                                             </h4>
                                             <ul className="list-inline mb-0 action-meta">
                                                 <li>
-                                                    <Link to="/a" className="green-small-btn">
+                                                    <Link to="/" className="green-small-btn">
                                                         <FiHeart />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/a" className="green-small-btn">
+                                                    <Link to="/" className="green-small-btn">
                                                         <RiShoppingBasket2Fill />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/a" className="green-small-btn">
+                                                    <Link to="/" className="green-small-btn">
                                                         <FaRandom />
                                                     </Link>
                                                 </li>

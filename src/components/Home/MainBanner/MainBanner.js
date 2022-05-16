@@ -33,7 +33,7 @@ const MainBanner = () => {
                                         <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
                                         <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Fresh Fruits</h2>
                                         <p className="animate__animated slideInRight">Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/product-category" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg1} alt="banner1" />
                                     <div className="slider-progress a1" />
@@ -43,7 +43,7 @@ const MainBanner = () => {
                                         <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
                                         <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Sessional Fruits</h2>
                                         <p className="animate__animated slideInDown">Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/product-category" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg2} alt="banner2" />
                                     <div className="slider-progress a1" />
@@ -53,7 +53,7 @@ const MainBanner = () => {
                                         <h4 className="fw-bold mb-sm-3 animate__animated slideInUp">Organic Products</h4>
                                         <h2 className="fw-bold mb-sm-3 animate__animated slideInDown">Others Fruits</h2>
                                         <p className="animate__animated slideInLeft">Buy the Best Organic Fruits for your Healthy Future.</p>
-                                        <Link to="/a" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
+                                        <Link to="/product-category" className="btn mt-sm-3 text-uppercase hShop-btn">Shop now <FontAwesomeIcon icon={faChevronRight} className="ms-1" /></Link>
                                     </div>
                                     <img src={localImages.bannerImg3} alt="banner3" />
                                     <div className="slider-progress a1" />

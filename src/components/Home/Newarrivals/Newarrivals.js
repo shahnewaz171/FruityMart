@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React, { createRef, useState } from 'react';
 import { Container, Image, Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
@@ -9,9 +9,11 @@ import { MdCompareArrows } from "react-icons/md";
 import Slider from "react-slick";
 import localImages from '../../shared/localImages';
 import './Newarrivals.css';
+import ViewModalInfo from '../ProductViewModal/ViewModalInfo';
 
 const Newarrivals = ({ data }) => {
     const customSlider = createRef();
+    const [modalIsOpen, setIsOpen] = useState(false);
 
     const settings = {
         dots: false,
@@ -66,7 +68,7 @@ const Newarrivals = ({ data }) => {
                                         <div className="product-info">
                                             <div className="product-img-container mb-3">
                                                 <div className="product-img product-border-bottom">
-                                                    <Link to="/a">
+                                                    <Link to="/product/1">
                                                         <Image src={localImages.lemon} fluid />
                                                     </Link>
                                                 </div>
@@ -99,7 +101,7 @@ const Newarrivals = ({ data }) => {
                                                             delay={{ show: 100, hide: 100 }}
                                                             overlay={<Tooltip id="button-tooltip-2">Compare</Tooltip>}
                                                         >
-                                                            <Button className="action-cart quickView">
+                                                            <Button onClick={() => setIsOpen(true)} className="action-cart quickView">
                                                                 <MdCompareArrows />
                                                             </Button>
                                                         </OverlayTrigger>
@@ -128,6 +130,9 @@ const Newarrivals = ({ data }) => {
                         })}
                     </Slider>
                 </div>
+                {
+                    <ViewModalInfo modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
+                }
             </Container>
         </section>
     );

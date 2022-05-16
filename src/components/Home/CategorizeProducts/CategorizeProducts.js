@@ -10,8 +10,6 @@ import renderer from '../../shared/countdownClock';
 import localImages from '../../shared/localImages';
 import ViewModalInfo from '../ProductViewModal/ViewModalInfo';
 
-export const ProductViewContext = createContext();
-
 const CategorizeProducts = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -42,11 +40,9 @@ const CategorizeProducts = () => {
                                 <div className="product-head">
                                     <div className="product-image">
                                         <span className="special-offer-text">Spacial <br /> Offer</span>
-                                        <Link to="/a">
-                                            <div className="image-lazySize">
-                                                <Image src={localImages.lemon} fluid />
-                                            </div>
-                                        </Link>
+                                        <div onClick={openModal} className="image-lazySize" style={{ cursor: 'pointer' }}>
+                                            <Image src={localImages.lemon} fluid />
+                                        </div>
                                         <span className="d-flex align-items-center justify-content-center flex-column offer-product-label">
                                             <span className="text">Save</span>
                                             <span className="fw-bolder percent">30%</span>
@@ -87,7 +83,7 @@ const CategorizeProducts = () => {
                                                 <div className="product-info">
                                                     <div className="product-img-container mb-3">
                                                         <div className="product-img lightgray-border">
-                                                            <Link to="/a">
+                                                            <Link to="/product/1">
                                                                 <Image src={localImages.lemon} fluid />
                                                             </Link>
                                                         </div>
@@ -153,14 +149,7 @@ const CategorizeProducts = () => {
                 </div>
             </Container>
             {
-                <ProductViewContext.Provider
-                    value={{
-                        modalIsOpen,
-                        setIsOpen
-                    }}
-                >
-                    <ViewModalInfo />
-                </ProductViewContext.Provider>
+                <ViewModalInfo modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
             }
         </section>
     );
